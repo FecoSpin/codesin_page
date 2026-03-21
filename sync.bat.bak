@@ -1,0 +1,5 @@
+cd /d D:\Sitios\CodesinMx\web_2
+
+git.exe pull --progress -v --no-rebase "origin"
+
+timeout 2

@@ -1,0 +1,83 @@
+time="2026-03-21T13:16:13-07:00" level=warning msg="D:\\laragon\\www\\Codesin_new\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+
+> @ prod /var/www
+> npm run production
+
+
+> @ production /var/www
+> cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js
+
+ ERROR  Failed to compile with 1 errors8:17:04 PM
+
+ error  in ./resources/assets/js/views/aviso.vue
+
+Syntax Error: Unexpected token (1:454)
+
+
+ @ ./resources/assets/js/views/aviso.vue 8:23-261
+ @ ./resources/assets/js/routes/routes.js
+ @ ./resources/assets/js/app.js
+ @ multi ./resources/assets/js/app.js
+
+             Asset     Size  Chunks                    Chunk Names
+        /js/app.js  1.12 MB       0  [emitted]  [big]  /js/app
+    /js/app.js.map  4.22 MB       0  [emitted]         /js/app
+/css/dashboard.css  1 bytes          [emitted]         
+  /js/dashboard.js  1 bytes          [emitted]         
+
+ERROR in ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-236e688d","hasScoped":false,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/views/aviso.vue
+Module build failed: SyntaxError: Unexpected token (1:454)
+    at Parser.pp$4.raise (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2757:13)
+    at Parser.pp.unexpected (/var/www/node_modules/vue-template-es2015-compiler/buble.js:647:8)
+    at Parser.pp$3.parseIdent (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2712:10)
+    at Parser.pp$2.parseBindingAtom (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1685:15)
+    at Parser.pp$2.parseMaybeDefault (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1722:23)
+    at Parser.pp$2.parseBindingList (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1707:25)
+    at Parser.pp$1.parseFunctionParams (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1231:22)
+    at Parser.pp$1.parseFunction (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1218:8)
+    at Parser.pp$3.parseExprAtom (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2184:17)
+    at Parser.<anonymous> (/var/www/node_modules/vue-template-es2015-compiler/buble.js:6003:24)
+    at Parser.parseExprAtom (/var/www/node_modules/vue-template-es2015-compiler/buble.js:6129:31)
+    at Parser.pp$3.parseExprSubscripts (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2047:19)
+    at Parser.pp$3.parseMaybeUnary (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2024:17)
+    at Parser.pp$3.parseExprOps (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1966:19)
+    at Parser.pp$3.parseMaybeConditional (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1949:19)
+    at Parser.pp$3.parseMaybeAssign (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1925:19)
+    at Parser.pp$3.parseExprList (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2663:20)
+    at Parser.pp$3.parseSubscripts (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2075:29)
+    at Parser.pp$3.parseExprSubscripts (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2050:21)
+    at Parser.pp$3.parseMaybeUnary (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2024:17)
+    at Parser.pp$3.parseExprOps (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1966:19)
+    at Parser.pp$3.parseMaybeConditional (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1949:19)
+    at Parser.pp$3.parseMaybeAssign (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1925:19)
+    at Parser.pp$3.parseExprList (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2663:20)
+    at Parser.pp$3.parseSubscripts (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2075:29)
+    at Parser.pp$3.parseExprSubscripts (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2050:21)
+    at Parser.pp$3.parseMaybeUnary (/var/www/node_modules/vue-template-es2015-compiler/buble.js:2024:17)
+    at Parser.pp$3.parseExprOps (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1966:19)
+    at Parser.pp$3.parseMaybeConditional (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1949:19)
+    at Parser.pp$3.parseMaybeAssign (/var/www/node_modules/vue-template-es2015-compiler/buble.js:1925:19)
+ @ ./resources/assets/js/views/aviso.vue 8:23-261
+ @ ./resources/assets/js/routes/routes.js
+ @ ./resources/assets/js/app.js
+ @ multi ./resources/assets/js/app.js
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! @ production: `cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js`
+npm ERR! Exit status 2
+npm ERR! 
+npm ERR! Failed at the @ production script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/codesin/.npm/_logs/2026-03-21T20_17_05_108Z-debug.log
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! @ prod: `npm run production`
+npm ERR! Exit status 2
+npm ERR! 
+npm ERR! Failed at the @ prod script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/codesin/.npm/_logs/2026-03-21T20_17_05_122Z-debug.log

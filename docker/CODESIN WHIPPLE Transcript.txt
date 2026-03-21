@@ -1,0 +1,311 @@
+CODESIN WHIPPLE
+Tue, Mar 17, 2026
+
+0:03 - EDUARDO GO
+Otro Francisco se nos acaba de unir. Francisco Cuamea, buenos días.
+
+0:09 - Francisco Cuamea
+Hola, buenos días.
+
+0:11 - EDUARDO GO
+Tenemos dos Francisco, Soriana y EDUARDO.
+
+0:15 - Francisco Cuamea
+Buenos días a todos.
+
+0:17 - EDUARDO GO
+Agradecerles mucho. Les comento de manera general y rápida. En su momento, Francisco Javier es el creador de la página de En su momento trabajamos con ellos. Ellos trabajaron la página, crearon todo. Y son realmente los que saben desde fondo de raíz lo que tiene la página. Esta página, siendo muy realistas, les comento que está creado en un sistema pues ya un poco obsoleto para lo que son las nuevas páginas. Esto nos ha complicado el trabajo ahí a la hora de hacer modificaciones a la página porque hay un sistema como de compilación, que al moverle una cosa, pues, se descuadran algunas otras, ¿no? Que en su momento, a lo mejor, fue una buena práctica, dio el resultado que se quería. Ya ahorita estamos trabajando con la idea de emigrar a nuevas plataformas. Pero por lo pronto, pues, todo lo hemos trabajado con Francisco. Ahí nos decía Francisco en su momento y el equipo de WePod que, pues, también, a la hora de tener, por ejemplo, lo que teníamos nosotros como acceso a buzón, a correo, a medios de contacto, pues es una parte frágil de las páginas de Internet que por ahí han entrado algunos de los hackeos que nos ha tocado tener el año pasado. Pero bueno, ahorita la petición, Francisco, como ya sabes, es hacer una modificación a la página de Internet en donde todo lo que es la estrategia de Codesin Sinaloa Talent se dejaría de lado y subiríamos lo que es la información de la página, de la estrategia Codesin Sinaloa 10+. Entonces, ahí aparece en la parte de arriba de la página, pues Codesin Sinaloa Talent, eso cambiaría a Codesin Sinaloa 10+. Y al darle clic, nos gustaría que aparezca toda la información de esta estrategia. En esta estrategia, pues Oriana, que está aquí con nosotros de comunicación, y Francisco Comeda, que es nuestro asesor en la parte de visualización y estrategia de comunicación, pues ellos son los responsables que queremos que se suba ahí. Nosotros Oriana y Cuamea le comentamos a Francisco y al equipo, bueno Francisco es parte de la empresa por ahí, con Alan hemos estado platicando también, que es el director de la empresa, para ver qué es lo que podemos tener ahí. Entonces nosotros le dijimos que queremos tener la información de Codesin Sinaloa 10+, tener el link de un vídeo, que ese vídeo se cargaría en YouTube y que de manera es la estrategia Codesin Sinaloa 10 más. Entonces, de manera general, eso es lo que yo le platicaba. Y también le vamos a agregar a la página en este momento, en este mismo proceso, lo que sería un buzón de quejas y sugerencias, que eso lo vamos a ver de nuestra parte. Pero ahorita, pues, sería básicamente qué se está imaginando el equipo de comunicación que aparezca de información en esta página, en qué programa lo van a subir para pasárselo a Francisco y que Francisco, ya trabaje en mostrarlo y que después de que él lo cargue, haríamos una estrategia con los que tienen la página actualmente para que se actualice la página. Ellos nos pedían alrededor de 8 a 10 días hábiles para hacer este trabajo. Quitamos una parte que traíamos por ahí pensando hacerla. Vamos a hacer solamente y dándole prioridad a Codesin Sinaloa 10 más. Entonces, me gustaría, Oriana, nomás, si le pueden comentar a Francisco, ¿qué se están imaginando que va a aparecer a la hora de darle clic a si no lo hay 10 más, ¿qué es lo que se están imaginando ustedes?
+
+3:56 - Codesin Sinaloa
+Sí, hola, buenos días a todos. Francisco y Gomea. Mira, pues, sí, como lo comenta EDUARDO, ahora recientemente, el pasado 5 de diciembre se lanzó esta estrategia, ¿no?, con lo que es necesario tener este micrositio con lo importante y relevante acerca de este espacio, ¿no? Pero te voy a dar la batuta aquí a Kwamea, que es quien trae la estrategia de la narrativa de esta visión y que ya hay un drive de hecho con algunos elementos cargados para ver si con esto podemos avanzar, una propuesta de estructura de este micrositio. Te comparto, Kwamea.
+
+4:35 - Francisco Cuamea
+Gracias, buenos días, toca yo.
+
+4:37 - Francisco Javier Espinoza Diaz
+Buen día. Ah, mira, toca yo, ya te explico.
+
+4:40 - Francisco Cuamea
+Esto de señalar es más, es como la apuesta chingona que trae Cohezín para este año y el que viene. Es así como una de las prioridades mayores y más importantes de todas las que trae, ¿no? Pero es como la joya de la corona que necesita comunicarla, visibilizarla, catalarla, ¿no? Entonces, como implican muchos pasos, reuniones, etcétera, la idea de estas, no sé si llamar excepción en la taxonomía, pues, o llamarle en los micrositios, no sé, pero vamos a decir de sección porque va en una pestaña, es que vaya documentando también ahí lo que va sucediendo, que sea como esta biblioteca o este repositorio donde se va acumulando lo que va sucediendo. Entonces, nosotros estamos proponiendo una estructura muy básica con ese fin y conociendo un poco o pensando un poco que a lo mejor no podemos soñar muchas cosas, pero voy a compartir pantalla, ¿no?
+
+5:45 - Francisco Javier Espinoza Diaz
+Sí, por favor.
+
+5:47 - Francisco Cuamea
+¿Me escuchan todavía?
+
+5:49 - Unidentified Speaker
+Porque a veces se me corta el audio. Sí, sí. Gracias.
+
+5:55 - Francisco Cuamea
+Bueno, entonces, yo le puse aquí el micrositio porque así hemos pensado antes, ¿no? Pero la sección vamos a armarla si quiere. Pues estamos pensando privilegiar más la calidad de la sencillez sobre la cantidad de cosas. Este, dado el tiempo que tenemos para, para crear esta sección, también con la tecnología con la que se cuenta, ¿No? Entonces buscamos la solución más limpia y simple. Pensamos que la solución más limpia y simple es la mejor. Bueno, ¿Qué secciones vemos? O sea, al darle click a esta pestaña que se llama este, pues no sé, no sé cómo visualizarlo, pero eso es lo importante. Mira, los temas importantes son, si no lo haces más, plan económico de largo plazo, las noticias que se van generando en torno a esto. Hay documentos descargables y el video. Eso es lo principal. ¿Qué va a ocurrir o qué tiene que ocurrir cuando leemos más es como el paraguas ¿No? Y el plan económico a largo plazo va dentro de este paraguas. Entonces en el área más le das clic y te va a explicar el propósito de Codesin Sinaloa 10 más, sus componentes, el diagnóstico económico actual de Codesin Sinaloa y ya. ¿No? Luego ya le das clic a plan económico a largo plazo y te debe de salir al menos esto. ¿Cuál es su propósito? Los objetivos, la agenda de trabajo, el equipo técnico multisectorial, esos son 10 fichas con fotos, el equipo técnico son 10 personas, ¿no? Recién seleccionadas. Lo ideal sería que apareciera por cuestión de transparencia, ¿no? Contability, como dicen los gringos, que aparezca su foto un párrafo de su perfil técnico, ¿no? Este, el equipo de PNUD que está participando en este proyecto, PNUD es una organización de las Naciones Unidas que está acompañando a CODESIN, estamos involucrados en la organización de las Naciones Unidas, es algo que tiene que estar visible, pues, ¿no? Y el equipo de CODESIN que está está está involucrado en ese trabajo de de la de la del plan económico a largo plazo eso es lo mínimo que con el equipo no es el mismo que ya están implementados acá en en la plataforma.
+
+8:36 - Francisco Javier Espinoza Diaz
+No son todos.
+
+8:37 - Francisco Cuamea
+Sí, en la plataforma están todos. Sí. Acá acá en en los que quienes están en un plazo son como tres personas. Es un equipo multisectorial, pues, ¿no? O sea, están los pies técnicos del equipo técnico multisectorial, está la gente del PNUD y está la gente de CODESUR. Entonces, la idea es visibilizar ese trabajo conjunto en un solo espacio, pues, ¿no? ¿OK? Noticias, estamos generando poco a poco noticias al respecto, que bien se transmiten y se almacenan en el historial de noticias de la página de Codecir, pero en particulares que tienen que ver con el plan económico a largo plazo y con los enerolles más, quisiéramos que también se reflejaran ahí, ¿no? Solamente esos dos temas, enerolles más y plan económico. Documentos descargables Ahí nada más en ese punto, Francisco, Javier, no sé si sea posible.
+
+9:49 - Codesin Sinaloa
+Yo normalmente soy quien sube las notas, las noticias. Tengo entendido que en WordPress se puede, al momento en que tú redactas, subes las fotos y demás, te sale, por ejemplo, en qué categorías o en qué ventanas quieres que aparezca esta noticia. Puedes poner las noticias generales, sitio web revuelto por las demás actividades o bien Y aparte, otra categoría que salga ya en Microsoft, si no lo odias más, por decir algo. Porque aquí, como dices, si bien todo se publica en la sección noticias general, pero vamos a estar como que filtrando lo referente a este tema. No sé si sea posible así o tendría que trabajar de otra manera. Tú nos dices.
+
+10:32 - Francisco Javier Espinoza Diaz
+Mira, déjame checar bien porque según de lo que me acuerdo yo de la plataforma, el apartado de noticias en sí no estaba, estaban de, creo que sí, pero eran noticias generales, no no manejábamos categorías, porque se dividían entre Codesin Sinaloa Talent y ¿Cuál era el otro? El Codesin Sinaloa, sí, creo que la de Codesin Sinaloa Números. Y me faltaba uno que era una estación de radio. Se dividían entonces como eran secciones muy diferentes y se cargan datos muy diferentes eh en sí podemos ver podemos ver lo de la noticia que tanto como recordar un poco si lo tengo para poderlo sacar por elemento o este ay permítame tantito permíteme este sí es verlo para que podamos tener esas dos secciones nada más si le puedo agregar y que aparezcan ahí lo que pasa es que está viviendo eh con lo que platiqué con EDUARDO que iba a ser más que nada una página ahorita informativa plana no iba a haber secciones dinámicas lo de noticias y que esté encargando que aparezcan esas últimas noticias que ustedes carguen. Sí, esto puede mantenerse plano.
+
+12:12 - Francisco Cuamea
+En la misma sección de Senadores y demás, pues puede apropiarse el contenido que aquí había yo puesto como es Glose, ¿no? Sí. Nada más este, eso, va a ir Pero noticias no sería el tema de ir acumulando la noticia.
+
+12:32 - Francisco Javier Espinoza Diaz
+Ajá, sí, no, lo que estoy viendo es que tú vas a, vamos a tener un submenú dentro de Codesin Sinaloa 10. Pues se puede hacer, eh, Chico. Para tener plan económico, las noticias, va, va a haber el menú y aparte tengo que hacer otro menú dentro de la, de esa sección para poder que se dirija, no dejarlo todo junto como está. Igual voy a revisar eso. Sí, lo que pasa es que el proceso es dinámico y va a estar generando mucha información de aquí hasta finales del año, incluso el próximo año.
+
+13:03 - Francisco Cuamea
+No, no, no aplica el hecho de tener todo fijo como una tarjeta de presentación, pues, ¿no? Sí. Hay muchas cosas y entonces ahí es donde queremos ir acumulando la historia, guardando la historia. Nada más tengo duda, otra duda que tengo con el, en el apartado del personal.
+
+13:22 - Francisco Javier Espinoza Diaz
+¿Ese sí va a estar fijo? Sí, ese es fijo.
+
+13:28 - Francisco Cuamea
+Igual no se va a mover a menos que corran a uno. Ese equipo ya está definido, Francisco, ese equipo y sería información, la misma información van a participar todos.
+
+13:44 - EDUARDO GO
+Ajá, ok.
+
+13:45 - Francisco Cuamea
+Sí, entonces ya sería el video fijo, o sea el widget pues es la caja del video donde podemos estar con la liga de YouTube cambiando videos, por eso no creo que haya tanta bronca. Y documentos descargables. Aquí hay documentos descargables. Algunos van a ser muchos, pero son importantes. Convenio contenido, los documentos diagnósticos que tiene CODECIM, diagnósticos que se van a generar, ¿no? Entonces, eso es lo dispensables. Los documentos descargables igual van a ser los que se van a pasar o durante el transcurso del año se van a ir aumentando? Van a ir aumentando. No muchos, pero van a surgir.
+
+14:34 - Francisco Javier Espinoza Diaz
+Ok, voy a ver. Voy a tomar una estrategia para no modificar tanto el CMS actual. Ok, voy a revisar esos documentos. Perdón, ahí en la primera, al darle clic en si no lo odias más, se despliega este espacio.
+
+15:00 - Codesin Sinaloa
+Normalmente siempre vemos o un banner o ahí se pondría lo del video. Obviamente pues con una portada o algo ya está el video cargado, de hecho en YouTube. Sí, no sé definir pues si va a ser el video en cuanto entres o un banner y si es un banner si tiene las medidas para generar el diseñito. Ok. El banner viene siendo las mismas medidas que se han manejado en todos.
+
+15:34 - Francisco Javier Espinoza Diaz
+La verdad ya no me acuerdo bien porque sí fue algo que les pasé en su tiempo. Si quieren manejar la misma estructura es el banner, pero se puede poner un full bit del vídeo, una pantalla completa del vídeo. Ahora, los vídeos ahorita por ley no se van a reproducir automáticamente y si se reproducen automáticamente es sin sonido. Eso es algo que quiero que tengan en cuenta. Si quieren que tengan sonidos tiene que aparecer que le den clic. Si no le dan clic, no reproduce sonido. No sé cómo ven eso. No, está bien, pero el chiste es que le den clic, ¿no? El chiste es que le den clic. Entonces aquí, si vamos con la misma estructura de toda la página, yo diría, si la quieren mantener, diría más o menos es el banner, porque son banners de una cuartilla, no de la página completa. Si se fijan, este, y si quisieran poner un vídeo, tenía que ser una pantalla completa, un full está bien, la verdad es que es mejor tener la caja del video con una portada que hagamos nosotros, es más vistoso, pero yo tengo que tener un banner.
+
+17:05 - Unidentified Speaker
+Entonces el banner principal sería un video.
+
+17:08 - Francisco Cuamea
+Pero en la posición del sitio, que esté como en medio, no esté como de foco gráfico. Ah, otra cosa. ¿Va a tener posibilidad de subir fotos?
+
+17:21 - Francisco Javier Espinoza Diaz
+Bueno, tengo que revisarlo porque te comento, Francisco, que a mí se me había comentado que iba a ser más o menos una página un poco estática a lo que se estaba viendo. No, está bien, no me pregunto. Podemos trabajar para que tengan la posibilidad de tener fotos, pero aquí sí me implicas un poquito con los puntos programados.
+
+17:45 - Francisco Cuamea
+No, no, no, la noticia relacionada con el desmasque, ¿no? ¿Ok? Y ya con eso es suficiente. Ok. ¿Tú te referías a los thumbnails de, para entrar a una, a una noticia?
+
+18:19 - Codesin Sinaloa
+Generando los cuadritos. También, sí, así es. Sí, eso sí se puede.
+
+18:25 - Francisco Cuamea
+Es un importante problema.
+
+18:27 - Francisco Javier Espinoza Diaz
+Pero mientras entra la noticia. Ajá.
+
+18:30 - Codesin Sinaloa
+porque aquí no se come a la idea que mencionaste el otro día de hacer entrevistas sobre todo a los integrantes del equipo técnico u otras que se vayan generando referente a este tema. No sé, lo pongo sobre la mesa. No, pues eso lo subíamos como noticia, pues.
+
+18:52 - EDUARDO GO
+Ok.
+
+18:53 - Francisco Cuamea
+Este, y como noticia y se cargan pues directamente allí. Ajá, o sea, pues si tengo el video, pues voy a cargarlo de YouTube. Entonces, la idea principal, aquí sería ver un poquito la estructura que vamos a ir manejando.
+
+19:14 - Francisco Javier Espinoza Diaz
+Va a ser, el video principal al entrar a Codesin Sinaloa 10, va a ser un video. No. No, no, no, el video va al medio, por ahí. Ok, medio.
+
+19:27 - Francisco Cuamea
+Porque tú vas al fijo.
+
+19:30 - Francisco Cuamea
+Ok, entonces va a estar la información de Codesin Sinaloa 10.
+
+19:35 - Francisco Javier Espinoza Diaz
+Es que la tengo al último. Ah, sí, mira. Noticias, no sé si lo quieres poner al último. Casi siempre van al último. Bueno, como gustes. Lo que pasa es que queremos mantenerlo fresco y dinámico.
+
+19:53 - Francisco Cuamea
+Entonces queremos darle su lugar. Ok, entonces va la información de Codesin Sinaloa 10.
+
+19:59 - Francisco Javier Espinoza Diaz
+la información del plan económico a largo plazo, vamos con noticias, con noticias va a ser, lo quieres que sea una sección que te aparezcan, ¿cuántas noticias? Eh, pues no sé, la la geometría, la página este. Originalmente podemos podemos hacerte, es que aquí depende mucho, podemos ponerte las últimas cuatro a cinco que quieras que se vean, tanto los cuadritos, o se te hace un cargocel. Y te cargo igual en el número de noticias, pues. No, no, los cargocelos me gustan. No, si dijera tres.
+
+20:42 - Codesin Sinaloa
+Actualmente, así está la cuadrícula, como dices, en las noticias son las últimas seis apareces, o sea, de tres, tres, y ver más, ver todas, y ya te explica todas. Pero son tres, tres cosas y ya te das cuenta que otras actividades hubo, no recientes.
+
+21:02 - Francisco Cuamea
+Y tres, si se puede tres y se ve bien. No se ve feo, tres sería suficiente porque tampoco estamos generados todo el día.
+
+21:15 - Unidentified Speaker
+Ok.
+
+21:16 - Francisco Cuamea
+Ok.
+
+21:16 - Francisco Javier Espinoza Diaz
+Ok, ponemos el video centrado y el de descarga bonito pero quiero verlo quiero ver una imagen donde lo que voy a descargar o solamente cuadrículos de descargas ahí por ejemplo si le pusiéramos un banner descarga documentos o cualquier otra cosa le das clic a que te llevaría mira sin editar tanto lo que es el CMS en Sí, yo apuntaría mejor a un, a una carpeta en Drive. Está bien. Y a ustedes ya puedan subir lo que ustedes quieran, sin tener que estar subiendo en el CMS y sin, y sin problemas de espacio.
+
+22:18 - Francisco Javier Espinoza Diaz
+Sí, a mí me parece bien.
+
+22:23 - Francisco Cuamea
+Ok, tendría un panel, un panel.
+
+22:28 - Unidentified Speaker
+Una imagen que te diga descarga si te manda a descargar.
+
+22:38 - Francisco Javier Espinoza Diaz
+al drive de Google. Ok. Ese banner de los descargables, este, ¿no es la misma medida, no, del carrusel? ¿Será más chico, más o por lo menos más delgado, más como tiras sencillas?
+
+22:59 - Codesin Sinaloa
+Un poquito de tiras sencillas, de no páginas como los otros, se llama Chico.
+
+23:10 - Francisco Javier Espinoza Diaz
+Ok.
+
+23:11 - Codesin Sinaloa
+Bueno, entonces vamos a pasar los textos. Sí.
+
+23:19 - Unidentified Speaker
+Sí.
+
+23:20 - Francisco Javier Espinoza Diaz
+Te ocuparía los textos, más que nada para los que en Codesin Sinaloa, diez, el el plan económico, las personas, los que manejan el el PNUD y CODECIM. Y el equipo técnico, o no sé, creo que es el mismo de CODECIM o es otro. Vamos a hacerlo ahí, son como dos o tres personas. No, pero el equipo técnico.
+
+23:58 - Francisco Cuamea
+No, no, es que estoy viendo ese equipo técnico multiseccional, equipo PNVD y equipo CODESIN, son tres.
+
+24:07 - Francisco Javier Espinoza Diaz
+El técnico son diez, el de CODESIN son alrededor de cuatro o cinco, no sé, algo así.
+
+24:16 - EDUARDO GO
+Y el otro, el de PNUD, pues nomás son tres. Así, así más o menos está calculado. Mi pregunta es nomás, Francisco, ¿Hay algún formato en específico en el que se tenga que mandar la información? Para comentarlo una vez, ¿en qué formato te tienen que mandar la información?
+
+24:41 - Francisco Javier Espinoza Diaz
+Tiene que ser en un Word, así exactamente, encabezado, el encabezado del contenido y todos los encabezados que tengan. Lo que va a ser encabezado en sí, que sea un poquito resaltado al texto plano. Al texto plano. Lo que es el igual lo que es el el las personas la información y por ahí el nombre que la imagen venga con el nombre de la persona para no perderlo bien las fotos van a estar para el 20 20, 21 cada un evento Ok, pues podemos ir dejando un cuadrito bonita en gris y dejarlo oculto, dejarlo oculto y desocultarlo a que esté en las fotos. Ok, ¿esas fotos qué peso deben tener?
+
+25:47 - Francisco Cuamea
+Mira, de preferencia pasen de 5 megabytes el peso.
+
+25:52 - Francisco Javier Espinoza Diaz
+Aquí recuerden, mucha de la información que tienen, mucha gente ahorita la va a ver en el teléfono. Los datos, si pesa mucho la imagen, es la cantidad de datos que se consume de las personas. Es por eso que el video yo se los pedí que sea mejor en YouTube, que directamente en la página. ¿Encuentras a la gente de eso? ¿Qué? No, no se dan cuenta, no hay unos que sí se dan cuenta, que dicen, hey, me se me acabaron los datos bien rápido. Ya me pasó. Eso sí te das cuenta, pero no te das cuenta de que ay, estuvieron en una foto pesada.
+
+26:43 - Francisco Cuamea
+¿En qué?
+
+26:44 - Francisco Javier Espinoza Diaz
+si se dan cuenta cuando sacan los datos entonces no maten sin comidas si ok ya el tamaño pues lo voy a ajustar a como están ahorita en el equipo de codecine va a ser similar el tamaño la estructura va a ser similar a esa nada más se les va a agregar creo que aquí quieres que se le agregue el el tooltip donde muestra más información de la persona este gordo era en la parte del staff decías en estos tres no pues básicamente ahí no nomás va a ser la información general no se va a hablar de una sembranza va a ser la imagen va a ser la imagen del nombre y el puesto Ok, podemos dejar el párrafo de 30 palabras.
+
+27:41 - Francisco Cuamea
+Deja, bueno, voy a ver la estructura, a ver cómo se los dejo.
+
+27:47 - Francisco Javier Espinoza Diaz
+Muy bien. Ok. Pues noticias van a ser una, se van a ver de las últimas tres noticias, yo diría, y un botón de ver más, que mande más a más noticias. Noticias. Ok, el descarga de documento va a ser un bundle que va a dirigir a una carpeta y ya muy bien aquí nada más sería ver el de noticias pues la idea como dicen sería que la misma noticia la jale de la de la barra de noticias para ya no que sea el mismo pero ya es un tema de programación si tengo que ver cómo identificar ese cuando suban una noticia de ahí. Oye y si lo dejas abierto para que lo identifiquemos nosotros como dándole un clic y aparezca.
+
+29:02 - EDUARDO GO
+No se podrá así como que Oriana le ponga una marcación a esa noticia para que la automáticamente la detecte y la mande para allá. Es lo que quiero ver. Es que se cargue el link de manera directa.
+
+29:18 - Francisco Javier Espinoza Diaz
+Pues tendríamos que dejarte el apartado de noticias para que cargues los links, pero se me hace un poco tedioso eso. Si las van a subir directo, ¿de dónde las van a subir? Si es de la misma plataforma, no creo necesario que sea el link. Si las van a subir desde otra plataforma y que te va a redirigir a otra plataforma, entonces sí. No, es en la misma plataforma, ahí en la de noticias de la página de cohesión donde se suben. Voy a checar eso, voy a checar la de las noticias.
+
+29:48 - EDUARDO GO
+Sí, sí, sí, sería ver, modificarle el apartado de noticias de la plataforma para que se pueda agregarle categoría.
+
+29:52 - Francisco Javier Espinoza Diaz
+Para que ya, ya pueden decir general o este, si es de, de, Ahora los tiempos Francisco, Francisco Javier, más o menos, ¿qué es lo que tienes estimado de tiempos?
+
+30:25 - EDUARDO GO
+Para que también lo contemplen Francisco, Juamea y Oriana, que la dirección sí nos va a decir para cuándo va a estar esta información en la página. Y estar claros con la fecha. Mira.
+
+30:50 - Unidentified Speaker
+Te lo debo de tener.
+
+30:56 - Francisco Javier Espinoza Diaz
+Vamos a martes 17. Esta debe de estar para el 10 27 si nada más modificamos de base de datos del CMS del apartado de noticias y todo lo demás lo manejamos estático con excepción de los descargas que va a mandar otra página incluyendo el otro que me querías tú que te comenté del buzón de sugerencias que te mande a un insertamos un formulario de Google o insertamos este, el, que te dirija el formulario de Google. Si, está bien, el formulario me parece bien. Si, este, lo que se hace es la estructura, vamos trabajando lo que es la estructura, como lo tienen, se los muestro, igual van a ir, para ir, que lo vayan viendo y me digan ¿Les gusta el diseño o no? ¿Cuándo sería eso, Francisco? Entonces, la próxima. Ese sería, yo más o menos tendría que tenerles el 23 ya una estructura casi hecha.
+
+32:17 - EDUARDO GO
+Bueno, también bien dependo mucho de cuando ya me manden la información.
+
+32:23 - Francisco Javier Espinoza Diaz
+O sea, si me la mandan mañana, yo empiezo mañana.
+
+32:30 - Francisco Javier Espinoza Diaz
+Aquí sí me dedico un poquito con ustedes, porque necesito ver cómo está todo lo que manda mandar. Aquí sí me dedico un poco, pero ahí depende. A partir de que tú tienes la información.
+
+32:44 - Francisco Cuamea
+A partir de que yo tengo.
+
+32:47 - Francisco Javier Espinoza Diaz
+Vamos a poner una semana y media.
+
+32:50 - EDUARDO GO
+A partir de lo que yo tengo de información.
+
+32:53 - Francisco Javier Espinoza Diaz
+No, los resto los tienes en la tarde, ¿no? Ok. Los textos ustedes en la tarde, las fotos, la mayoría de las fotitos también, solamente la de los 10 más que son el 20.
+
+33:05 - Francisco Cuamea
+El documento descargables, pues nada más vamos a revisar con la dirección a ver cuál es la prueba y cuál es no. La de documentos descargables no, no me afecta tanto, porque como si quedamos, si lo van a subir un un drive ya, ya lo pueden subir ustedes cuando ustedes quieran.
+
+33:23 - Francisco Javier Espinoza Diaz
+Pues sí, siempre. Sí, o sea. Me interesa la información de Codesin Sinaloa 10, la de plan económico, en los equipos. El video, puedo poner un video de prueba.
+
+33:37 - Francisco Cuamea
+Ya tenemos uno.
+
+33:39 - Francisco Javier Espinoza Diaz
+Ah, ya. Ah, pues me mandan, en el mismo documento me mandan la liga del video. Y voy trabajando en todo eso. Entonces, ahorita les comparto un correo con ella, de CIN, perdón, a Cuameya y a Oriana y nos ponemos los cuatro en el correo y ahí le damos seguimiento a la información.
+
+34:01 - EDUARDO GO
+Si falta algo pues ya usted nos dice. Reverso. Sí, yo más o menos y teniendo todo para el viernes y el lunes les hago presentar algo, el avance para que me hayan visto bueno.
+
+34:14 - Francisco Javier Espinoza Diaz
+No me escuchaba, perdón. Nada más tengo duda dónde aparecería la presentación como tal, o sea hasta descargar en la liga o visible, que es la idea, ¿no?
+
+34:27 - Codesin Sinaloa
+Que esté en él, a primera vista. ¿Cuál presentación? La presentación en sí de lo que es Codesin Sinaloa DSMASC. Ah, es que se la puede tener en PowerPoint.
+
+34:40 - Francisco Javier Espinoza Diaz
+Sí.
+
+34:41 - Codesin Sinaloa
+En slides.
+
+34:41 - Francisco Cuamea
+Se la puede tener en slides de Google y en donde va el texto que dice Codesin Sinaloa DSMASC, bla, bla, Puedes ponerle una liga con un bannercito para que descarga si le quiere ver a alguien, ¿no? O como te lo estabas imaginando, que se viera. Sí, pero ahorita definimos que se va a ver primero el video, ¿no? No, no, no, el video va por medio.
+
+35:12 - Codesin Sinaloa
+Si una introducción, pues un texto de lo que es Enalba Diezmás, luego el video. Y me imaginaba yo como el banner y que le pudieras dar, pero a lo mejor eso no se puede ahorita en programación. De estar como en un carro usando un slide que puedas estar viendo las diapositivas, pudiera ser. O sea, no llevármelo hasta descargas que no queda tan oculto. Pero la verdad es que no lo hago a propósito, porque digo, hasta se me hace la...
+
+35:47 - Francisco Cuamea
+Ponerlo como si fuera un documento electrónico, ¿verdad? Porque la lógica es la economía del clip, evitar que la gente haga menos clips. Por un lado, pues, ¿no? Entonces, si queremos que de un insight, de un balazo, conozcan las historias más, es suficiente con el texto. Y ya si quieren saber más, pues, que le den clic a la presentación. Es que la página no para para meter todos estos apoyos visuales. Sí, sí, sí. Es el tema. Ok, adelante. Ya yo trabajo los diseños de los banners también. Ok. Francisco, ¿encontraste siempre la base de datos o se la pido a los de la página para mandártela?
+
+36:29 - Codesin Sinaloa
+Tengo el código de la aplicación, no tengo la base de datos. Ese sí me ayudarías.
+
+36:36 - EDUARDO GO
+Ok, la voy a pedir y te la mando.
+
+36:40 - Francisco Javier Espinoza Diaz
+Y sí, y sí la voy a ocupar porque vamos a modificar, posiblemente modifique el apartado de noticias para que puedan decir cuál es de general y cuál es de si no lo a 10. Bueno, te la consigo. Sí, por favor. Intentativamente nos volvíamos a ver aquí por una reunión virtual el viernes o el lunes próximo a esas.
+
+37:05 - EDUARDO GO
+El lunes, el lunes. El lunes sale. Entonces esa es la idea, el lunes y finalmente que todo si avanza todo bien para el 27 dijimos. Es mi fecha límite te voy a dar. Puedo tenerlo antes.
+
+37:22 - Francisco Javier Espinoza Diaz
+Si no hay modificación en el diseño, si les gustó, puede estar antes. Perfecto, serían los tiempos Kouamea y Oriana, ¿están de acuerdo? Sí.
+
+37:33 - EDUARDO GO
+Igual ya tenemos varios grupos, pero no sé si lo se suba al micrositio en una semana y media.
+
+37:42 - Codesin Sinaloa
+¿Tenemos qué? Un grupo whatsapp para ver pendiente lo que se suba. Ahí los agrego entonces al grupo, yo los agrego a ti a Pomea. Vale. Pues muchas gracias Francisco, gracias Adriana y Pomea, estamos en contacto.
+
+38:00 - EDUARDO GO
+Gracias a ustedes, adiós.
+
+38:02 - Codesin Sinaloa
+Pendientes. Que tengan un bonito día.
+
+38:05 - EDUARDO GO
+Igualmente, maestro.

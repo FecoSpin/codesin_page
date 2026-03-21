@@ -1,0 +1,14 @@
+.return {
+    position: absolute;
+    z-index: 9;
+    right: 55px;
+    margin-top: 11px;
+}
+
+
+/*
+
+<div class="return">
+    <a href="{{ URL::previous() }}" class="btn btn-info">Regresar</a>
+</div>
+*/
