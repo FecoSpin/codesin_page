@@ -107,13 +107,19 @@
                 <p class="s10-intro text-center s10-team-desc">Expertos seleccionados que diseñarán el Plan Económico de Largo Plazo de Sinaloa.</p>
                 <div class="row s10-team-row">
                     <div class="col-md-2 col-sm-4 col-xs-6" v-for="(m, i) in equipoTecnico" :key="'et-'+i">
-                        <div class="s10-member-card">
-                            <div class="s10-member-img-placeholder">
-                                <i class="fa fa-user" aria-hidden="true"></i>
+                        <a :href="m.curriculum || '#'" :target="m.curriculum ? '_blank' : ''" class="s10-member-link" :class="{ 'no-link': !m.curriculum }">
+                            <div class="s10-member-card">
+                                <div class="s10-member-img" v-if="m.foto">
+                                    <img :src="m.foto" :alt="m.nombre" class="s10-profile-img">
+                                </div>
+                                <div class="s10-member-img-placeholder" v-else>
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+                                <p class="s10-member-name">{{ m.nombre }}</p>
+                                <p class="s10-member-job">{{ m.cargo }}</p>
+                                <p class="s10-cv-label" v-if="m.curriculum">Ver currículum</p>
                             </div>
-                            <p class="s10-member-name">{{ m.nombre }}</p>
-                            <p class="s10-member-job">{{ m.cargo }}</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
@@ -190,18 +196,97 @@ export default {
             urlvideo: 'https://youtu.be/mSGONji1hj4?si=HZta4THgxP-pRPsU',
             noticias: [],
             // ── Equipo Técnico Multisectorial ──
-            // Sustituir con los nombres reales cuando el cliente los proporcione
             equipoTecnico: [
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
-                { nombre: 'Por confirmar', cargo: 'Miembro' },
+                { 
+                    nombre: 'Alberto Kousuke De la Herrán Arita', 
+                    cargo: 'Director de Fomento a la Investigación Científica en CONFÍE',
+                    foto: '/images/equipo/alberto-kousuke.jpg',
+                    curriculum: null
+                },
+                { 
+                    nombre: 'Diego Alonso Gastélum Chavira', 
+                    cargo: 'Profesor Investigador de Tiempo Completo en la UAdeO',
+                    foto: null,
+                    curriculum: null
+                },
+                { 
+                    nombre: 'Doris Ibel Gutiérrez Félix', 
+                    cargo: 'Gerente de Inversión Social en Fundación Coppel',
+                    foto: null,
+                    curriculum: 'https://drive.google.com/file/d/1nsx6Rrwk7LZ89TTqm3R_OsorjAPSmnBK/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Dra. Doris Teresita Mendoza López', 
+                    cargo: 'Profesora e Investigadora de Tiempo Completo en Facultad de Contaduría y Administración de la UAS',
+                    foto: '/images/equipo/doris-teresita-mendoza.jpg',
+                    curriculum: 'https://drive.google.com/file/d/17AmI3Z2XmCuekHGmQJ2Mq0_ZZsBUX7JS/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Dulce Livier Pérez Gámez', 
+                    cargo: 'Fundadora y Directora de Entre Pueblos, Organización de la Sociedad Civil',
+                    foto: null,
+                    curriculum: 'https://drive.google.com/file/d/1FUj4myxPnJxFxXmXqKTiSo5CPclb38xa/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Héctor Emanuel Ibarra Flores', 
+                    cargo: 'Empresario, Director General de Fumigaciones Ibarra',
+                    foto: null,
+                    curriculum: 'https://drive.google.com/file/d/1IcLedhPE7VXVF7hj6SOPeU1hjOzNDObp/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Ismael Barraza Guzmán', 
+                    cargo: 'Jefe de Vinculación y Desarrollo Regional del Instituto Politécnico Nacional en Los Mochis',
+                    foto: null,
+                    curriculum: 'https://drive.google.com/file/d/1XxP2P2KG6O18u1XDtJDiGbel6hxsj2NS/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Jorge Miller Benítez', 
+                    cargo: 'Asesor Jurídico del Despacho del Secretario de Economía de Sinaloa',
+                    foto: '/images/equipo/jorge-miller.jpg',
+                    curriculum: 'https://drive.google.com/file/d/1113fKuO7seMyIaZWU95wG4wjGaNzR_Pr/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Jorge Rafael Elenes Figueroa', 
+                    cargo: 'Profesor e Investigador de Posgrado en la UAS',
+                    foto: null,
+                    curriculum: 'https://drive.google.com/file/d/1NnPi9wJCJ-Zxoms4skAv6SPqrtKAoSHA/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'José Antonio Penné Madrid', 
+                    cargo: 'Director de Planeación en la Secretaría de Administración y Finanzas del Gobierno de Sinaloa',
+                    foto: '/images/equipo/jose-antonio-penne.jpg',
+                    curriculum: 'https://drive.google.com/file/d/16XZ5dONC1mr5IPOugISAsQDUyfjcHwan/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'José Antonio Ríos Rojo', 
+                    cargo: 'Integrante de la Coordinación de Asesores del Gobernador de Sinaloa',
+                    foto: null,
+                    curriculum: 'https://drive.google.com/file/d/1CAhGYLFHnVdJHHfuEeawx_7QIvxNyWGQ/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'María del Rosario Godoy Alarcón', 
+                    cargo: 'Empresaria, Directora General y socia accionista de Ingoy',
+                    foto: '/images/equipo/rosario-godoy.jpg',
+                    curriculum: 'https://drive.google.com/file/d/1R1OQJugonQiHLdPM43YK8N3qa1r0xqKn/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Pedro Flores Leal', 
+                    cargo: 'Rector de la UAdeO',
+                    foto: null,
+                    curriculum: 'https://drive.google.com/file/d/1wPmFrBFVbg-e1MmhuhYJ9vKjPVD0vHzB/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Sergio Antonio Álvarez Torres', 
+                    cargo: 'Empresario, Director General del Grupo FIASA',
+                    foto: '/images/equipo/sergio-alvarez.jpg',
+                    curriculum: 'https://drive.google.com/file/d/1zg-vgc8Mgp5-WblRo_Nbr4SPAxSUm0dO/view?usp=drive_link'
+                },
+                { 
+                    nombre: 'Dra. Yamel Guadalupe Rubio Rocha', 
+                    cargo: 'Profesora e Investigadora en la Facultad de Biología de la UAS',
+                    foto: null,
+                    curriculum: 'https://drive.google.com/file/d/1O5_5NLCrAQoaFusGvPRb4LBFBZmnrMz5/view?usp=drive_link'
+                }
             ],
             // ── Equipo PNUD ──
             equipoPNUD: [
@@ -340,22 +425,44 @@ export default {
     letter-spacing: 1px;
 }
 .s10-team-desc { color: #777; margin-bottom: 20px; }
-.s10-team-row { justify-content: center; margin-bottom: 10px; }
-.s10-member-card { text-align: center; margin-bottom: 20px; }
-.s10-member-img-placeholder {
+.s10-team-row { display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 10px; }
+.s10-member-card { text-align: center; margin-bottom: 20px; transition: transform 0.2s; }
+.s10-member-link { text-decoration: none !important; display: block; color: inherit; }
+.s10-member-link:not(.no-link):hover .s10-member-card { transform: translateY(-5px); }
+.s10-member-link.no-link { cursor: default; }
+
+.s10-member-img, .s10-member-img-placeholder {
     width: 120px;
     height: 120px;
-    background: #c8c8c8;
     border-radius: 6px;
     margin: 0 auto 10px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #c8c8c8;
+}
+.s10-member-img-placeholder {
     font-size: 2.5rem;
     color: #fff;
 }
+.s10-profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .s10-member-name { font-weight: 700; font-size: 0.85rem; margin: 4px 0; color: #333; }
-.s10-member-job { font-size: 0.78rem; color: #777; margin: 0; }
+.s10-member-job { font-size: 0.78rem; color: #777; margin: 0; line-height: 1.2; }
+.s10-cv-label { 
+    font-size: 0.7rem; 
+    color: #2c4c2c; 
+    font-weight: 700; 
+    margin-top: 8px; 
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.s10-member-link:not(.no-link):hover .s10-cv-label { opacity: 1; }
 
 /* ─── Noticias ─── */
 .s10-noticias-section { background: #fff; }
