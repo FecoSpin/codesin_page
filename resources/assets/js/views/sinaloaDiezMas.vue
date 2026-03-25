@@ -2,7 +2,7 @@
     <div>
         <!-- ===================== SECCIÓN 1: BANNER HEADER ===================== -->
         <section class="s10-banner-section">
-            <img src="/images/sinaloa10_header_banner.png" alt="Sinaloa 10+" class="s10-banner-img">
+            <img src="/images/s10_banner_main.jpg" alt="Sinaloa 10+" class="s10-banner-img">
         </section>
 
         <!-- ===================== SECCIÓN 2: DESCRIPCIÓN + COMPONENTES ===================== -->
@@ -57,10 +57,7 @@
             <div class="container text-center">
                 <a class="s10-video-popup" :href="urlvideo">
                     <div class="s10-video-thumb">
-                        <img src="https://img.youtube.com/vi/mSGONji1hj4/hqdefault.jpg" alt="Video Sinaloa 10+" class="s10-yt-thumb">
-                        <div class="s10-play-overlay">
-                            <i class="fa fa-play-circle" aria-hidden="true"></i>
-                        </div>
+                        <img src="/images/s10_banner_video.jpg" alt="Video Sinaloa 10+" class="s10-yt-thumb">
                     </div>
                 </a>
                 <p class="s10-video-caption">Conoce más sobre la estrategia Sinaloa 10+</p>
@@ -178,7 +175,7 @@
             <div class="container text-center">
                 <!-- Sustituir '#' con el link real de Google Drive cuando el cliente lo proporcione -->
                 <a href="#" target="_blank" class="s10-docs-link">
-                    <img src="/images/sinaloa10_documentos_banner.png" alt="Documentos Descargables" class="s10-docs-banner">
+                    <img src="/images/s10_banner_descargas.jpg" alt="Documentos Descargables" class="s10-docs-banner">
                 </a>
             </div>
         </section>
@@ -311,7 +308,6 @@ export default {
 .s10-video-thumb {
     position: relative;
     display: inline-block;
-    max-width: 700px;
     width: 100%;
     cursor: pointer;
     border-radius: 10px;
@@ -319,18 +315,8 @@ export default {
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
 .s10-yt-thumb { width: 100%; display: block; }
-.s10-play-overlay {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 5rem;
-    color: rgba(255,255,255,0.9);
-    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
-    transition: color 0.2s;
-}
-.s10-video-thumb:hover .s10-play-overlay { color: #F5A623; }
 .s10-video-caption { margin-top: 14px; color: #888; font-size: 0.9rem; }
-.s10-video-popup { text-decoration: none; }
+.s10-video-popup { text-decoration: none; display: block; width: 100%; }
 
 /* ─── PELP ─── */
 .s10-pelp-section { background: #fff; }
@@ -397,8 +383,8 @@ export default {
 
 /* ─── Documentos ─── */
 .s10-docs-section { padding: 40px 0 60px; background: #f8f8f8; }
-.s10-docs-link { display: inline-block; }
-.s10-docs-banner { max-width: 900px; width: 100%; display: block; margin: 0 auto; border-radius: 8px; transition: opacity 0.2s; }
+.s10-docs-link { display: inline-block; width: 100%; }
+.s10-docs-banner { width: 100%; display: block; margin: 0 auto; border-radius: 8px; transition: opacity 0.2s; }
 .s10-docs-banner:hover { opacity: 0.9; }
 
 /* ─── Responsive ─── */
