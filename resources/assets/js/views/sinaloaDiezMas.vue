@@ -153,6 +153,7 @@
             </div>
         </section>
 
+
         <!-- ===================== SECCIÓN 6: NOTICIAS ===================== -->
         <section class="s10-section s10-noticias-section" v-if="noticias.length > 0">
             <div class="container">
@@ -179,8 +180,7 @@
         <!-- ===================== SECCIÓN 7: DOCUMENTOS DESCARGABLES ===================== -->
         <section class="s10-docs-section">
             <div class="container text-center">
-                <!-- Sustituir '#' con el link real de Google Drive cuando el cliente lo proporcione -->
-                <a href="#" target="_blank" class="s10-docs-link">
+                <a href="https://drive.google.com/drive/folders/1zvgfHeqy6duG4MXWy44jgaox3FgtdS2E?usp=sharing" target="_blank" class="s10-docs-link">
                     <img src="/images/s10_banner_descargas.jpg" alt="Documentos Descargables" class="s10-docs-banner">
                 </a>
             </div>
@@ -201,18 +201,18 @@ export default {
                     nombre: 'Alberto Kousuke De la Herrán Arita', 
                     cargo: 'Director de Fomento a la Investigación Científica en CONFÍE',
                     foto: '/images/equipo/alberto-kousuke.jpg',
-                    curriculum: null
+                    curriculum: 'https://drive.google.com/file/d/1DO-4k38lBW7g9tPwU14ZZooc2y3jo2fR/view?usp=drive_link'
                 },
                 { 
                     nombre: 'Diego Alonso Gastélum Chavira', 
                     cargo: 'Profesor Investigador de Tiempo Completo en la UAdeO',
-                    foto: null,
-                    curriculum: null
+                    foto: '/images/equipo/diego-gastelum.jpg',
+                    curriculum: 'https://drive.google.com/file/d/1wH6L3HQ_tWefkRobkYXy94ds0Fqxprid/view?usp=drive_link'
                 },
                 { 
                     nombre: 'Doris Ibel Gutiérrez Félix', 
                     cargo: 'Gerente de Inversión Social en Fundación Coppel',
-                    foto: null,
+                    foto: '/images/equipo/doris-gutierrez.jpg',
                     curriculum: 'https://drive.google.com/file/d/1nsx6Rrwk7LZ89TTqm3R_OsorjAPSmnBK/view?usp=drive_link'
                 },
                 { 
@@ -224,19 +224,19 @@ export default {
                 { 
                     nombre: 'Dulce Livier Pérez Gámez', 
                     cargo: 'Fundadora y Directora de Entre Pueblos, Organización de la Sociedad Civil',
-                    foto: null,
+                    foto: '/images/equipo/dulce-livier.jpg',
                     curriculum: 'https://drive.google.com/file/d/1FUj4myxPnJxFxXmXqKTiSo5CPclb38xa/view?usp=drive_link'
                 },
                 { 
                     nombre: 'Héctor Emanuel Ibarra Flores', 
                     cargo: 'Empresario, Director General de Fumigaciones Ibarra',
-                    foto: null,
+                    foto: '/images/equipo/hector-ibarra.jpg',
                     curriculum: 'https://drive.google.com/file/d/1IcLedhPE7VXVF7hj6SOPeU1hjOzNDObp/view?usp=drive_link'
                 },
                 { 
                     nombre: 'Ismael Barraza Guzmán', 
                     cargo: 'Jefe de Vinculación y Desarrollo Regional del Instituto Politécnico Nacional en Los Mochis',
-                    foto: null,
+                    foto: '/images/equipo/ismael-barraza.jpg',
                     curriculum: 'https://drive.google.com/file/d/1XxP2P2KG6O18u1XDtJDiGbel6hxsj2NS/view?usp=drive_link'
                 },
                 { 
@@ -248,7 +248,7 @@ export default {
                 { 
                     nombre: 'Jorge Rafael Elenes Figueroa', 
                     cargo: 'Profesor e Investigador de Posgrado en la UAS',
-                    foto: null,
+                    foto: '/images/equipo/jorge-elenes.jpg',
                     curriculum: 'https://drive.google.com/file/d/1NnPi9wJCJ-Zxoms4skAv6SPqrtKAoSHA/view?usp=drive_link'
                 },
                 { 
@@ -260,7 +260,7 @@ export default {
                 { 
                     nombre: 'José Antonio Ríos Rojo', 
                     cargo: 'Integrante de la Coordinación de Asesores del Gobernador de Sinaloa',
-                    foto: null,
+                    foto: '/images/equipo/jose-antonio-rios.jpg',
                     curriculum: 'https://drive.google.com/file/d/1CAhGYLFHnVdJHHfuEeawx_7QIvxNyWGQ/view?usp=drive_link'
                 },
                 { 
@@ -272,7 +272,7 @@ export default {
                 { 
                     nombre: 'Pedro Flores Leal', 
                     cargo: 'Rector de la UAdeO',
-                    foto: null,
+                    foto: '/images/equipo/pedro-flores.jpg',
                     curriculum: 'https://drive.google.com/file/d/1wPmFrBFVbg-e1MmhuhYJ9vKjPVD0vHzB/view?usp=drive_link'
                 },
                 { 
@@ -284,7 +284,7 @@ export default {
                 { 
                     nombre: 'Dra. Yamel Guadalupe Rubio Rocha', 
                     cargo: 'Profesora e Investigadora en la Facultad de Biología de la UAS',
-                    foto: null,
+                    foto: '/images/equipo/yamel-rubio.jpg',
                     curriculum: 'https://drive.google.com/file/d/1O5_5NLCrAQoaFusGvPRb4LBFBZmnrMz5/view?usp=drive_link'
                 }
             ],
@@ -493,6 +493,7 @@ export default {
 .s10-docs-link { display: inline-block; width: 100%; }
 .s10-docs-banner { width: 100%; display: block; margin: 0 auto; border-radius: 8px; transition: opacity 0.2s; }
 .s10-docs-banner:hover { opacity: 0.9; }
+
 
 /* ─── Responsive ─── */
 @media (max-width: 767px) {
