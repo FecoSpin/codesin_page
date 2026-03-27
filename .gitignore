@@ -46,8 +46,8 @@ debug.log
 *.gz
 *~merged
 # Docker (excluir solo lo que no va a producción)
-Dockerfile    
-captain-definition  
+# Dockerfile         <-- NO ignorar: CapRover lo necesita
+# captain-definition <-- NO ignorar: CapRover lo necesita
 docker-compose.yml
 docker-compose.override.yml
 .docker/

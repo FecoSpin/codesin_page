@@ -1,10 +1,5 @@
 FROM php:7.4-fpm
 
-# ── Node.js 14 ──────────────────────────────────────────────────────────────
-RUN curl -fsSLO https://nodejs.org/dist/v14.21.3/node-v14.21.3-linux-x64.tar.xz && \
-    tar -xJf node-v14.21.3-linux-x64.tar.xz -C /usr/local --strip-components=1 && \
-    rm node-v14.21.3-linux-x64.tar.xz
-
 # ── System dependencies ──────────────────────────────────────────────────────
 RUN apt-get update && apt-get install -y \
     git curl libpng-dev libonig-dev libxml2-dev \
@@ -22,10 +17,8 @@ WORKDIR /var/www
 COPY . .
 
 # PHP dependencies (production only)
+# Los assets Vue ya vienen compilados en public/js/app.js desde el commit
 RUN composer install --no-dev --optimize-autoloader --no-interaction --no-scripts
-
-# Front-end assets
-RUN npm install && npm run prod && rm -rf node_modules
 
 # Storage & cache permissions
 RUN mkdir -p storage/framework/{sessions,views,cache} storage/logs bootstrap/cache && \
