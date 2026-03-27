@@ -42,6 +42,7 @@ Route::post('email2', 'MailchimpTest@subscribe');
 Route::get('posicionamiento','PagesController@posicionamiento');
 Route::get('posicionamiento/{post}','PagesController@posicionamientoGet');
 Route::get('sinaloa10noticias','NoticiasController@sinaloa10');
+Route::get('sinaloa10all','NoticiasController@sinaloa10All');
 Route::post('quejas', 'QuejasController@store');
 
 

@@ -45,6 +45,9 @@
                                                 <router-link :to="{name: 'noticias'}" >Noticias</router-link>
                                             </li>
                                             <li>
+                                                <router-link :to="{name: 'sinaloa10_noticias'}" >Noticias Sinaloa 10+</router-link>
+                                            </li>
+                                            <li>
                                                 <router-link :to="{name: 'codetalks'}" >CodeTalks</router-link>
                                             </li>
                                             <li>
@@ -109,6 +112,9 @@
                                         <ul class="nav-dropdown">
                                             <li>
                                                 <router-link :to="{name: 'noticias'}" >Noticias</router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{name: 'sinaloa10_noticias'}" >Noticias Sinaloa 10+</router-link>
                                             </li>
                                             <li>
                                                 <router-link :to="{name: 'codetalks'}" >CodeTalks</router-link>

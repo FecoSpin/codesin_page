@@ -35,20 +35,8 @@ class PagesController extends Controller
     }
 
     public function homev2(){
-        $codetalk = Post::published()->join('post_extra', 'posts.id', '=', 'post_extra.post_id')->where('category_id',7)->orderBy('published_at','DESC')->first();
-        $codesinHechos = Post::published()->join('post_extra', 'posts.id', '=', 'post_extra.post_id')->where('category_id',8)->orderBy('published_at','DESC')->first();
         $sinaloaNum = Post::published()->join('post_extra', 'posts.id', '=', 'post_extra.post_id')->where('category_id',9)->orderBy('published_at','DESC')->first();
 
-        if(is_null($codetalk)){
-            $codetalk = (object)[];
-            $codetalk->status = false;
-            $codetalk->published_at = Carbon::create(1899, 1, 1, 0, 0, 0, 'America/Toronto');
-        }
-        if(is_null($codesinHechos)){
-            $codesinHechos = (object)[];
-            $codesinHechos->status = false;
-            $codesinHechos->published_at = Carbon::create(1899, 1, 1, 0, 0, 0, 'America/Toronto');
-        }
         if(is_null($sinaloaNum)){
             $sinaloaNum = (object)[];
             $sinaloaNum->status = false;
@@ -56,8 +44,6 @@ class PagesController extends Controller
         }
 
         $a = array();
-        $a[71] = Array ('author' => $codetalk, 'date' => $codetalk->published_at );
-        $a[49] = Array ( 'author' => $codesinHechos, 'date' => $codesinHechos->published_at ) ;
         $a[75] = Array ( 'author' => $sinaloaNum, 'date' => $sinaloaNum->published_at) ;
 
         $date = array();
@@ -71,8 +57,8 @@ class PagesController extends Controller
         $noticias = Post::published()->where('category_id',2)->orderBy('published_at','desc')->take(3)->get();
         $articulos = Post::published()->where('category_id',11)->take(3)->orderBy('published_at','desc')->get();
         $query = Post::published()
-        ->whereIn('category_id',[2,7,8,9,10,11])
-        ->selectRaw('url,urlBanner,urlBannerMobile, category_id,published_at, case category_id when 2 then "noticia_show" when 7 then "codetalks_show" when 8 then "codetalks_show" when 9 then "sinaloaennumeros_show" when 10 then "posicionamiento_show"	when 11 then "articulo_show"  end AS "show"')
+        ->whereIn('category_id',[2,9,10,11])
+        ->selectRaw('url,urlBanner,urlBannerMobile, category_id,published_at, case category_id when 2 then "noticia_show" when 9 then "sinaloaennumeros_show" when 10 then "posicionamiento_show"	when 11 then "articulo_show"  end AS "show"')
         ->orderBy('published_at','DESC')->take(3)
         ->get();
 

@@ -172,7 +172,7 @@
                     </div>
                 </div>
                 <div class="text-center s10-ver-mas">
-                    <router-link :to="{ name: 'noticias' }" class="s10-btn-verde">Ver más noticias</router-link>
+                    <router-link :to="{ name: 'sinaloa10_noticias' }" class="s10-btn-verde">Ver más noticias</router-link>
                 </div>
             </div>
         </section>
