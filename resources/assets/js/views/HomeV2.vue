@@ -368,7 +368,6 @@ import { slider, slideritem } from 'vue-concise-slider'
 .buzon-quejas-section {
     background-color: #f9f9f9;
     padding: 80px 0;
-    margin-top: 40px;
 }
 .display-flex-quejas {
     display: flex;
