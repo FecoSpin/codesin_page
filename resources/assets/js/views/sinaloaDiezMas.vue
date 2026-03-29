@@ -480,20 +480,17 @@ export default {
 .s10-pelp-img-wrapper {
     position: relative;
     border-radius: 16px;
-    padding: 12px;
-    background: linear-gradient(135deg, #f1f6f1 0%, #e8f0e8 100%);
-    box-shadow: 0 15px 45px rgba(44,76,44,0.1);
-    transition: transform 0.3s ease;
+    padding: 0; /* Sin relleno para que la sombra se vea directa */
+    background: none; /* Fondo eliminado a petición del usuario */
 }
-.s10-pelp-img-wrapper:hover {
-    transform: scale(1.01);
-}
+/* Animación eliminada a petición del usuario */
 .s10-pelp-img-large {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 12px;
     display: block;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    /* Sombra equilibrada en laterales y parte inferior */
+    box-shadow: 0 20px 40px rgba(26,46,26,0.12), 10px 0 25px rgba(26,46,26,0.04), -10px 0 25px rgba(26,46,26,0.04);
 }
 .s10-img-caption {
     margin-top: 15px;
@@ -509,6 +506,7 @@ export default {
 .s10-pnud-card {
     background: #f1f6f1;
     border: 1px solid #e0e8e0;
+    border-top: 5px solid #2c4c2c; /* Borde superior verde oscuro como en la imagen */
     border-radius: 16px;
     position: relative;
     padding: 50px 40px 25px;
@@ -522,6 +520,7 @@ export default {
     background: #2c4c2c;
     padding: 12px 50px;
     border-radius: 50px;
+    border: 2px solid #fff; /* Borde blanco para mayor impacto */
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
     white-space: nowrap;
 }
