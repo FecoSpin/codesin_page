@@ -40,8 +40,17 @@ ON DUPLICATE KEY UPDATE name=name;
 -- 3. Agregar campo a la tabla de posts
 ALTER TABLE posts ADD COLUMN news_strategy_id INT DEFAULT 1;
 
--- 4. (Opcional) Si hay noticias que deban ser Sinaloa 10+ por defecto, actualizar su ID
--- UPDATE posts SET news_strategy_id = 2 WHERE ...;
+-- 4. Actualizar noticias referentes a Sinaloa 10+
+UPDATE posts SET news_strategy_id = 2 WHERE url IN (
+    'codesin-convoca-a-sinaloa-10-la-estrategia-para-acelerar-el-crecimiento',
+    'sinaloa-consolida-alianza-con-el-programa-de-las-naciones-unidas-para-el-desarrollo-para-construir-el-plan-economico-de-largo-plazo-rumbo-al-2050',
+    'empresarios-del-norte-de-sinaloa-conocen-la-convocatoria-de-codesin-para-el-plan-economico-de-largo-plazo-rumbo-a-2050',
+    'sinaloa-necesita-construir-desde-ahora-una-vision-economica-de-largo-plazo',
+    'intercamaral-culiacan-se-suma-a-la-convocatoria-para-disenar-el-plan-economico-de-largo-plazo-de-sinaloa',
+    'intercamaral-de-guasave-participara-en-el-diseno-del-plan-economico-de-largo-plazo-de-sinaloa',
+    'cierra-convocatoria-para-integrar-el-equipo-que-disenara-el-plan-economico-de-largo-plazo-de-sinaloa',
+    'inician-trabajos-del-equipo-tecnico-multisectorial-para-elaborar-el-plan-economico-de-largo-plazo-de-sinaloa'
+);
 ```
 
 ## 3. Despliegue de Activos (Frontend)
