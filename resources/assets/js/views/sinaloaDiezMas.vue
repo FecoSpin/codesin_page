@@ -2,7 +2,7 @@
     <div>
         <!-- ===================== SECCIÓN 1: BANNER HEADER ===================== -->
         <section class="s10-banner-section">
-            <img src="/images/s10_banner_main.jpg" alt="Sinaloa 10+" class="s10-banner-img">
+            <img src="/images/s10_banner_main.jpg?v=2" alt="Sinaloa 10+" class="s10-banner-img">
         </section>
 
         <!-- ===================== SECCIÓN 2: DESCRIPCIÓN + COMPONENTES ===================== -->
@@ -57,7 +57,7 @@
             <div class="container text-center">
                 <a class="s10-video-popup" :href="urlvideo">
                     <div class="s10-video-thumb">
-                        <img src="/images/s10_banner_video.jpg" alt="Video Sinaloa 10+" class="s10-yt-thumb">
+                        <img src="/images/s10_banner_video.jpg?v=2" alt="Video Sinaloa 10+" class="s10-yt-thumb">
                     </div>
                 </a>
                 <p class="s10-video-caption">Conoce más sobre la estrategia Sinaloa 10+</p>
@@ -68,31 +68,43 @@
         <section class="s10-section s10-pelp-section">
             <div class="container">
                 <h2 class="s10-subtitle text-center">Plan Económico de Largo Plazo</h2>
-                <p class="s10-intro">
+                <p class="s10-intro s10-text-justify">
                     El <strong>Plan Económico de Largo Plazo (PELP)</strong> es el instrumento técnico que dará
                     sustento al eje económico de la estrategia Sinaloa 10+.
                 </p>
-                <p class="s10-intro">
+                <p class="s10-intro s10-text-justify">
                     Su objetivo es definir una <strong>hoja de ruta estratégica para el desarrollo económico del
-                    estado con horizonte al 2050</strong>, que incluya diagnóstico, oportunidades estratégicas, metas,
-                    indicadores y mecanismos de implementación y seguimiento.
+                    estado con horizonte al 2050</strong>, que incluya diagnóstico, metas y mecanismos de seguimiento.
                 </p>
-                <p class="s10-intro">
-                    El PELP permitirá orientar las decisiones públicas y privadas hacia una visión compartida de
+                <p class="s10-intro s10-text-justify">
+                    El PELP permitirá orientar las decisiones hacia una visión compartida de
                     crecimiento sostenible y competitividad.
                 </p>
 
-                <div class="s10-pnud-box">
-                    <h3 class="s10-pnud-title">Acompañamiento del PNUD</h3>
-                    <p class="s10-intro">
-                        La elaboración del Plan Económico de Largo Plazo cuenta con el acompañamiento del
-                        <strong>Programa de las Naciones Unidas para el Desarrollo (PNUD)</strong>.
-                    </p>
-                    <p class="s10-intro">
-                        Su participación aporta metodologías internacionales, estándares técnicos y experiencia en
-                        planeación estratégica para fortalecer el diseño del plan y asegurar que esté alineado con
-                        los principios del desarrollo sostenible.
-                    </p>
+                <div class="s10-pelp-img-container-full text-center">
+                    <div class="s10-pelp-img-wrapper">
+                        <img src="/images/s10_pelp_hoja_ruta.jpg?v=2" alt="Hoja de Ruta PELP" class="s10-pelp-img-large">
+                    </div>
+                    <p class="s10-img-caption">Visualiza la hoja de ruta estratégica para el desarrollo económico de Sinaloa.</p>
+                </div>
+
+                <div class="s10-pnud-container-full">
+                    <div class="s10-pnud-card">
+                        <div class="s10-pnud-header">
+                            <h3 class="s10-pnud-title-new">Acompañamiento del PNUD</h3>
+                        </div>
+                        <div class="s10-pnud-body">
+                            <p class="s10-intro s10-text-justify">
+                                La elaboración del Plan Económico de Largo Plazo cuenta con el acompañamiento del
+                                <strong>Programa de las Naciones Unidas para el Desarrollo (PNUD)</strong>.
+                            </p>
+                            <p class="s10-intro s10-text-justify">
+                                Su participación aporta metodologías internacionales, estándares técnicos y experiencia en
+                                planeación estratégica para fortalecer el diseño del plan y asegurar que esté alineado con
+                                los principios del desarrollo sostenible.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -206,7 +218,7 @@
         <section class="s10-docs-section">
             <div class="container text-center">
                 <a href="https://drive.google.com/drive/folders/1zvgfHeqy6duG4MXWy44jgaox3FgtdS2E?usp=sharing" target="_blank" class="s10-docs-link">
-                    <img src="/images/s10_banner_descargas.jpg" alt="Documentos Descargables" class="s10-docs-banner">
+                    <img src="/images/s10_banner_descargas.jpg?v=2" alt="Documentos Descargables" class="s10-docs-banner">
                 </a>
             </div>
         </section>
@@ -455,15 +467,75 @@ export default {
 .s10-video-popup { text-decoration: none; display: block; width: 100%; }
 
 /* ─── PELP ─── */
-.s10-pelp-section { background: #fff; }
-.s10-pnud-box {
-    background: #f1f6f1;
-    border-left: 4px solid #2c4c2c;
-    border-radius: 8px;
-    padding: 25px 30px;
-    margin-top: 30px;
+.s10-pelp-section { 
+    background: #fff; 
+    padding: 70px 0;
 }
-.s10-pnud-title { font-size: 1.2rem; font-weight: 700; color: #2c4c2c; margin-bottom: 12px; }
+.s10-text-justify { text-align: justify; margin-bottom: 20px; }
+
+.s10-pelp-img-container-full { 
+    margin: 50px auto 30px; 
+    max-width: 1000px; /* Ancho suficiente para que se vea el detalle */
+}
+.s10-pelp-img-wrapper {
+    position: relative;
+    border-radius: 16px;
+    padding: 12px;
+    background: linear-gradient(135deg, #f1f6f1 0%, #e8f0e8 100%);
+    box-shadow: 0 15px 45px rgba(44,76,44,0.1);
+    transition: transform 0.3s ease;
+}
+.s10-pelp-img-wrapper:hover {
+    transform: scale(1.01);
+}
+.s10-pelp-img-large {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.s10-img-caption {
+    margin-top: 15px;
+    color: #888;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.s10-pnud-container-full {
+    margin: 80px auto 40px; 
+    max-width: 1000px; 
+}
+.s10-pnud-card {
+    background: #f1f6f1;
+    border: 1px solid #e0e8e0;
+    border-radius: 16px;
+    position: relative;
+    padding: 50px 40px 25px;
+    box-shadow: 0 10px 40px rgba(44,76,44,0.06);
+}
+.s10-pnud-header {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2c4c2c;
+    padding: 12px 50px;
+    border-radius: 50px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    white-space: nowrap;
+}
+.s10-pnud-title-new {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.s10-pnud-body {
+    text-align: center;
+}
 
 /* ─── Equipo ─── */
 .s10-team-section { background: #f8f8f8; }
