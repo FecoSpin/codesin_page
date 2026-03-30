@@ -26,21 +26,21 @@
                     <div class="col-md-4 col-sm-12 s10-card-col">
                         <div class="s10-card">
                             <div class="s10-card-icon"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
-                            <h3 class="s10-card-title">Estrategia Económica</h3>
+                            <h3 class="s10-card-title">Eje Económico</h3>
                             <p class="s10-card-body">Impulsar el Plan Económico de Largo Plazo que fortalezca el tejido productivo, incremente la complejidad económica y genere empleos de mayor valor.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 s10-card-col">
                         <div class="s10-card">
                             <div class="s10-card-icon"><i class="fa fa-shield" aria-hidden="true"></i></div>
-                            <h3 class="s10-card-title">Estrategia de Seguridad</h3>
+                            <h3 class="s10-card-title">Eje de Seguridad</h3>
                             <p class="s10-card-body">Fortalecer las capacidades institucionales para garantizar condiciones de seguridad que permitan el desarrollo económico y la inversión.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 s10-card-col">
                         <div class="s10-card">
                             <div class="s10-card-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-                            <h3 class="s10-card-title">Estrategia Social</h3>
+                            <h3 class="s10-card-title">Eje Social</h3>
                             <p class="s10-card-body">Comprender las causas de los problemas socioeconómicos y diseñar soluciones basadas en evidencia para mejorar las oportunidades y la cohesión social.</p>
                         </div>
                     </div>
@@ -164,12 +164,16 @@
                 <h3 class="s10-team-group-title text-center">Equipo PNUD</h3>
                 <div class="row s10-team-row">
                     <div class="col-md-2 col-sm-4 col-xs-6" v-for="(m, i) in equipoPNUD" :key="'pnud-'+i">
-                        <div class="s10-member-card">
-                            <div class="s10-member-img-placeholder">
+                        <div class="s10-member-card s10-member-clickable" @click="openModal(m)" role="button" tabindex="0" @keydown.enter="openModal(m)">
+                            <div class="s10-member-img" v-if="m.foto">
+                                <img :src="m.foto" :alt="m.nombre" class="s10-profile-img">
+                            </div>
+                            <div class="s10-member-img-placeholder" v-else>
                                 <i class="fa fa-user" aria-hidden="true"></i>
                             </div>
                             <p class="s10-member-name">{{ m.nombre }}</p>
                             <p class="s10-member-job">{{ m.cargo }}</p>
+                            <p class="s10-cv-label-hint"><i class="fa fa-info-circle"></i> Ver perfil</p>
                         </div>
                     </div>
                 </div>
@@ -343,9 +347,30 @@ export default {
             ],
             // ── Equipo PNUD ──
             equipoPNUD: [
-                { nombre: 'Por confirmar', cargo: 'Especialista PNUD' },
-                { nombre: 'Por confirmar', cargo: 'Especialista PNUD' },
-                { nombre: 'Por confirmar', cargo: 'Especialista PNUD' },
+                { 
+                    nombre: 'Jesús Pacheco', 
+                    cargo: 'Coordinador del proyecto Implementación de la Agenda 2030 a nivel subnacional en PNUD México',
+                    foto: null,
+                    descripcion: 'Experiencia en investigación, diseño y evaluación de políticas públicas. Coordina estrategias para fortalecer capacidades institucionales a nivel local, estrategias sobre Desarrollo Humano, así como metodologías y sistemas de indicadores con el enfoque de desarrollo sostenible para la gestión pública.'
+                },
+                { 
+                    nombre: 'Edna Mercado', 
+                    cargo: 'Analista en alianzas para el desarrollo sostenible en PNUD México',
+                    foto: null,
+                    descripcion: 'Experiencia en facilitar procesos multi-actor, diseñar y gestionar proyectos de cooperación internacional para el desarrollo que logren resultados reales para las personas y el planeta.'
+                },
+                { 
+                    nombre: 'Adrián Escudero', 
+                    cargo: 'Asociado para el análisis de evidencia y generación de conocimiento para el desarrollo local en PNUD México',
+                    foto: null,
+                    descripcion: 'Experiencia en análisis territorial y el desarrollo de metodologías, sistemas de medición e instrumentos de monitoreo para la Agenda 2030 y el Desarrollo Humano. Cuenta con experiencia en política social y económica para fortalecer la gestión pública.'
+                },
+                { 
+                    nombre: 'Fiódor Rodríguez', 
+                    cargo: 'Especialista en formación para la localización de la Agenda 2030 y planeación del desarrollo en PNUD México',
+                    foto: null,
+                    descripcion: 'Experiencia en pedagogía, diseño metodológico y fortalecimiento de capacidades para la Agenda 2030. Cuenta con trayectoria en docencia, diseño y evaluación de políticas públicas y promoción de derechos humanos e inclusión social.'
+                },
             ],
             // ── Equipo CODESIN ──
             equipoCodesin: [
