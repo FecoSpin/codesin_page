@@ -113,7 +113,7 @@
         </section>
 
         <!-- ===================== SECCIÓN 5: EQUIPO ===================== -->
-        <div class="s10-section-divider">
+        <div class="s10-section-divider s10-team-divider-hidden">
             <span class="s10-section-divider-label">Equipo · Sinaloa 10+</span>
         </div>
         <section class="s10-section s10-team-section">
@@ -121,7 +121,7 @@
 
                 <!-- Equipo Técnico Multisectorial -->
                 <h3 class="s10-team-group-title text-center">Equipo Técnico Multisectorial</h3>
-                <p class="s10-intro text-center s10-team-desc">Expertos seleccionados que codidiseñarán el Plan Económico de Largo Plazo de Sinaloa.</p>
+                <p class="s10-intro text-center s10-team-desc">Expertos seleccionados que  Co-diseñarán el Plan Económico de Largo Plazo de Sinaloa.</p>
                 <div class="row s10-team-row">
                     <div class="col-md-2 col-sm-4 col-xs-6" v-for="(m, i) in equipoTecnico" :key="'et-'+i">
                         <div class="s10-member-card s10-member-clickable" @click="openModal(m)" role="button" tabindex="0" @keydown.enter="openModal(m)">
@@ -530,6 +530,10 @@ export default {
     border: 1.5px solid #2c4c2c;
     border-radius: 50px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+/* Ocultar divisor específico del equipo */
+.s10-team-divider-hidden {
+    display: none;
 }
 
 /* ─── PELP ─── */
