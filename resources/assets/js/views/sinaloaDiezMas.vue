@@ -10,7 +10,7 @@
             <div class="container">
                 <h1 class="s10-title-main text-center">Sinaloa 10+</h1>
                 <p class="s10-intro">
-                    Sinaloa 10+ es una estrategia de largo plazo que convoca a la sociedad sinaloense a construir un
+                    Es una estrategia de largo plazo que convoca a la sociedad sinaloense a construir un
                     nuevo modelo de desarrollo para el estado.
                 </p>
                 <p class="s10-intro">
@@ -65,6 +65,9 @@
         </section>
 
         <!-- ===================== SECCIÓN 4: PLAN ECONÓMICO (PELP) ===================== -->
+        <div class="s10-pelp-divider">
+            <span class="s10-pelp-divider-label">Eje Económico · Sinaloa 10+</span>
+        </div>
         <section class="s10-section s10-pelp-section">
             <div class="container">
                 <h2 class="s10-subtitle text-center">Plan Económico de Largo Plazo</h2>
@@ -221,7 +224,7 @@
         <!-- ===================== SECCIÓN 7: DOCUMENTOS DESCARGABLES ===================== -->
         <section class="s10-docs-section">
             <div class="container text-center">
-                <a href="https://drive.google.com/drive/folders/1zvgfHeqy6duG4MXWy44jgaox3FgtdS2E?usp=sharing" target="_blank" class="s10-docs-link">
+                <a href="https://drive.google.com/drive/folders/1VVPUzcIcWKwb4MNAfGTkZdCGLnAvMG8M?usp=sharing" target="_blank" class="s10-docs-link">
                     <img src="/images/s10_banner_descargas.jpg?v=2" alt="Documentos Descargables" class="s10-docs-banner">
                 </a>
             </div>
@@ -350,25 +353,25 @@ export default {
                 { 
                     nombre: 'Jesús Pacheco', 
                     cargo: 'Coordinador del proyecto Implementación de la Agenda 2030 a nivel subnacional en PNUD México',
-                    foto: null,
+                    foto: '/images/equipo/jesus-pacheco.jpg',
                     descripcion: 'Experiencia en investigación, diseño y evaluación de políticas públicas. Coordina estrategias para fortalecer capacidades institucionales a nivel local, estrategias sobre Desarrollo Humano, así como metodologías y sistemas de indicadores con el enfoque de desarrollo sostenible para la gestión pública.'
                 },
                 { 
                     nombre: 'Edna Mercado', 
                     cargo: 'Analista en alianzas para el desarrollo sostenible en PNUD México',
-                    foto: null,
+                    foto: '/images/equipo/edna-mercado.jpg',
                     descripcion: 'Experiencia en facilitar procesos multi-actor, diseñar y gestionar proyectos de cooperación internacional para el desarrollo que logren resultados reales para las personas y el planeta.'
                 },
                 { 
                     nombre: 'Adrián Escudero', 
                     cargo: 'Asociado para el análisis de evidencia y generación de conocimiento para el desarrollo local en PNUD México',
-                    foto: null,
+                    foto: '/images/equipo/adrian-escudero.jpg',
                     descripcion: 'Experiencia en análisis territorial y el desarrollo de metodologías, sistemas de medición e instrumentos de monitoreo para la Agenda 2030 y el Desarrollo Humano. Cuenta con experiencia en política social y económica para fortalecer la gestión pública.'
                 },
                 { 
                     nombre: 'Fiódor Rodríguez', 
                     cargo: 'Especialista en formación para la localización de la Agenda 2030 y planeación del desarrollo en PNUD México',
-                    foto: null,
+                    foto: '/images/equipo/fiodr-rodriguez.jpg',
                     descripcion: 'Experiencia en pedagogía, diseño metodológico y fortalecimiento de capacidades para la Agenda 2030. Cuenta con trayectoria en docencia, diseño y evaluación de políticas públicas y promoción de derechos humanos e inclusión social.'
                 },
             ],
@@ -491,10 +494,45 @@ export default {
 .s10-video-caption { margin-top: 14px; color: #888; font-size: 0.9rem; }
 .s10-video-popup { text-decoration: none; display: block; width: 100%; }
 
+/* ─── Divisor PELP ─── */
+.s10-pelp-divider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 28px 0 0;
+    position: relative;
+}
+.s10-pelp-divider::before,
+.s10-pelp-divider::after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #2c4c2c 60%);
+    max-width: 300px;
+}
+.s10-pelp-divider::after {
+    background: linear-gradient(to left, transparent, #2c4c2c 60%);
+}
+.s10-pelp-divider-label {
+    white-space: nowrap;
+    font-size: 0.80rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #2c4c2c;
+    background: #fff;
+    padding: 6px 18px;
+    border: 1.5px solid #2c4c2c;
+    border-radius: 50px;
+}
+
 /* ─── PELP ─── */
 .s10-pelp-section { 
-    background: #fff; 
+    background: #f4f6f4; 
     padding: 70px 0;
+    border-top: none;
 }
 .s10-text-justify { text-align: justify; margin-bottom: 20px; }
 
