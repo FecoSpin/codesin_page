@@ -534,9 +534,11 @@ export default {
 
 /* ─── PELP ─── */
 .s10-pelp-section { 
-    background: #f4f6f4; 
+    background: linear-gradient(135deg, #e8f4e8 0%, #f0f7f0 50%, #e1f0e1 100%);
+    background-color: #e8f4e8; /* Fallback for old browsers */
     padding: 70px 0;
     border-top: none;
+    position: relative;
 }
 .s10-text-justify { text-align: justify; margin-bottom: 20px; }
 
@@ -571,13 +573,13 @@ export default {
     max-width: 1000px; 
 }
 .s10-pnud-card {
-    background: #f1f6f1;
-    border: 1px solid #e0e8e0;
-    border-top: 5px solid #2c4c2c; /* Borde superior verde oscuro como en la imagen */
+    background: linear-gradient(145deg, #ffffff 0%, #f9fbf9 100%);
+    border: 2px solid #d4e4d4;
+    border-top: 6px solid #2c4c2c; /* Borde superior verde oscuro como en la imagen */
     border-radius: 16px;
     position: relative;
     padding: 50px 40px 25px;
-    box-shadow: 0 10px 40px rgba(44,76,44,0.06);
+    box-shadow: 0 10px 40px rgba(44,76,44,0.08), 0 2px 10px rgba(44,76,44,0.04);
 }
 .s10-pnud-header {
     position: absolute;
