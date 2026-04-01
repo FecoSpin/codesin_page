@@ -65,11 +65,11 @@
         </section>
 
         <!-- ===================== SECCIÓN 4: PLAN ECONÓMICO (PELP) ===================== -->
-        <div class="s10-section-divider">
-            <span class="s10-section-divider-label">Eje Económico · Sinaloa 10+</span>
-        </div>
         <section class="s10-section s10-pelp-section">
             <div class="container">
+                <div class="s10-section-divider">
+                    <span class="s10-section-divider-label">Eje Económico · Sinaloa 10+</span>
+                </div>
                 <h2 class="s10-subtitle text-center">Plan Económico de Largo Plazo</h2>
                 <p class="s10-intro s10-text-justify">
                     El <strong>Plan Económico de Largo Plazo (PELP)</strong> es el instrumento técnico que dará
@@ -536,7 +536,7 @@ export default {
 .s10-pelp-section { 
     background: linear-gradient(135deg, #e8f4e8 0%, #f0f7f0 50%, #e1f0e1 100%);
     background-color: #e8f4e8; /* Fallback for old browsers */
-    padding: 70px 0;
+    padding: 15px 0;
     border-top: none;
     position: relative;
 }
