@@ -65,8 +65,8 @@
         </section>
 
         <!-- ===================== SECCIÓN 4: PLAN ECONÓMICO (PELP) ===================== -->
-        <div class="s10-pelp-divider">
-            <span class="s10-pelp-divider-label">Eje Económico · Sinaloa 10+</span>
+        <div class="s10-section-divider">
+            <span class="s10-section-divider-label">Eje Económico · Sinaloa 10+</span>
         </div>
         <section class="s10-section s10-pelp-section">
             <div class="container">
@@ -113,9 +113,11 @@
         </section>
 
         <!-- ===================== SECCIÓN 5: EQUIPO ===================== -->
+        <div class="s10-section-divider">
+            <span class="s10-section-divider-label">Equipo · Sinaloa 10+</span>
+        </div>
         <section class="s10-section s10-team-section">
             <div class="container">
-                <h2 class="s10-subtitle text-center">Equipo</h2>
 
                 <!-- Equipo Técnico Multisectorial -->
                 <h3 class="s10-team-group-title text-center">Equipo Técnico Multisectorial</h3>
@@ -494,8 +496,8 @@ export default {
 .s10-video-caption { margin-top: 14px; color: #888; font-size: 0.9rem; }
 .s10-video-popup { text-decoration: none; display: block; width: 100%; }
 
-/* ─── Divisor PELP ─── */
-.s10-pelp-divider {
+/* ─── Divisores de Sección ─── */
+.s10-section-divider {
     width: 100%;
     display: flex;
     align-items: center;
@@ -503,19 +505,20 @@ export default {
     gap: 20px;
     padding: 28px 0 0;
     position: relative;
+    background: transparent;
 }
-.s10-pelp-divider::before,
-.s10-pelp-divider::after {
+.s10-section-divider::before,
+.s10-section-divider::after {
     content: '';
     flex: 1;
     height: 2px;
     background: linear-gradient(to right, transparent, #2c4c2c 60%);
     max-width: 300px;
 }
-.s10-pelp-divider::after {
+.s10-section-divider::after {
     background: linear-gradient(to left, transparent, #2c4c2c 60%);
 }
-.s10-pelp-divider-label {
+.s10-section-divider-label {
     white-space: nowrap;
     font-size: 0.80rem;
     font-weight: 700;
@@ -526,6 +529,7 @@ export default {
     padding: 6px 18px;
     border: 1.5px solid #2c4c2c;
     border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 /* ─── PELP ─── */
