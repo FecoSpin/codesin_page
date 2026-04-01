@@ -121,7 +121,7 @@
 
                 <!-- Equipo Técnico Multisectorial -->
                 <h3 class="s10-team-group-title text-center">Equipo Técnico Multisectorial</h3>
-                <p class="s10-intro text-center s10-team-desc">Expertos seleccionados que diseñarán el Plan Económico de Largo Plazo de Sinaloa.</p>
+                <p class="s10-intro text-center s10-team-desc">Expertos seleccionados que codidiseñarán el Plan Económico de Largo Plazo de Sinaloa.</p>
                 <div class="row s10-team-row">
                     <div class="col-md-2 col-sm-4 col-xs-6" v-for="(m, i) in equipoTecnico" :key="'et-'+i">
                         <div class="s10-member-card s10-member-clickable" @click="openModal(m)" role="button" tabindex="0" @keydown.enter="openModal(m)">
@@ -615,7 +615,11 @@ export default {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.s10-team-desc { color: #777; margin-bottom: 20px; }
+.s10-team-desc { 
+    color: #777; 
+    margin-bottom: 20px; 
+    text-align: center !important; 
+}
 .s10-team-row { display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 10px; }
 .s10-member-card { text-align: center; margin-bottom: 20px; transition: transform 0.2s; }
 .s10-member-link { text-decoration: none !important; display: block; color: inherit; }
