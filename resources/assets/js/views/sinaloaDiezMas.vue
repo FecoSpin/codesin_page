@@ -20,7 +20,7 @@
                 </p>
 
                 <h2 class="s10-subtitle text-center">Tres componentes para transformar el desarrollo</h2>
-                <p class="s10-intro text-center">La estrategia Sinaloa 10+ se articula en tres grandes ejes.</p>
+                <p class="s10-intro text-center s10-team-desc">La estrategia Sinaloa 10+ se articula en tres grandes ejes.</p>
 
                 <div class="row s10-cards-row">
                     <div class="col-md-4 col-sm-12 s10-card-col">
@@ -134,7 +134,7 @@
                             </div>
                             <p class="s10-member-name">{{ m.nombre }}</p>
                             <p class="s10-member-job">{{ m.cargo }}</p>
-                            <!-- hint removed -->
+                            <p class="s10-cv-label-hint"><i class="fa fa-info-circle"></i> Ver perfil</p>
                         </div>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
                             </div>
                             <p class="s10-member-name">{{ m.nombre }}</p>
                             <p class="s10-member-job">{{ m.cargo }}</p>
-                            <!-- hint removed -->
+                            <p class="s10-cv-label-hint"><i class="fa fa-info-circle"></i> Ver perfil</p>
                         </div>
                     </div>
                 </div>
@@ -651,13 +651,36 @@ export default {
 }
 .s10-member-name { font-weight: 700; font-size: 0.85rem; margin: 4px 0; color: #333; }
 .s10-member-job { font-size: 0.78rem; color: #777; margin: 0; line-height: 1.2; }
-/* .s10-cv-label-hint removed */
+.s10-cv-label-hint {
+    font-size: 0.72rem;
+    color: #2c4c2c;
+    font-weight: 700;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
 .s10-member-clickable {
     cursor: pointer;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background 0.22s ease;
     border-radius: 10px;
     border: 2px solid transparent;
     background: #f8f8f8;
     padding: 10px 8px 8px;
+}
+.s10-member-clickable:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 28px rgba(44,76,44,0.28), 0 2px 8px rgba(44,76,44,0.14);
+    border-color: #2c4c2c;
+    background: linear-gradient(160deg, #f1f6f1 0%, #eaf2ea 100%);
+}
+.s10-member-clickable:hover .s10-cv-label-hint { opacity: 1; }
+.s10-member-clickable:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(44,76,44,0.35);
+    border-color: #2c4c2c;
+    border-radius: 10px;
 }
 
 /* ─── Modal ─── */
