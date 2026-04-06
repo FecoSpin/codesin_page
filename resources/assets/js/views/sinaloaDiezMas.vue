@@ -93,9 +93,16 @@
                 </div>
 
                 <div class="s10-pnud-container-full">
+                    <!-- Logos y título principal -->
+                    <div class="s10-logos-row">
+                        <img src="/images/s10_logo_ods_sinaloa.png" alt="ODS Sinaloa" class="s10-logo-img s10-logo-ods">
+                        <img src="/images/s10_logo_codesin.png" alt="Codesin Sinaloa 10+" class="s10-logo-img s10-logo-codesin">
+                        <img src="/images/s10_logo_pnud.png" alt="PNUD" class="s10-logo-img s10-logo-pnud">
+                    </div>
+
                     <div class="s10-pnud-card">
                         <div class="s10-pnud-header">
-                            <h3 class="s10-pnud-title-new">Acompañamiento del PNUD</h3>
+                            <h3 class="s10-pnud-title-new">ACOMPAÑAMIENTO DEL PROGRAMA DE LAS NACIONES UNIDAS PARA EL DESARROLLO (PNUD)</h3>
                         </div>
                         <div class="s10-pnud-body">
                             <p class="s10-intro s10-text-justify">
@@ -575,6 +582,30 @@ export default {
     margin: 80px auto 40px; 
     max-width: 1000px; 
 }
+.s10-logos-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.s10-logo-img {
+    max-height: 90px;
+    width: auto;
+    object-fit: contain;
+}
+.s10-logo-ods { max-height: 100px; }
+.s10-logo-codesin { max-height: 90px; }
+.s10-logo-pnud { max-height: 90px; }
+.s10-pnud-main-title {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #1a2e1a;
+    margin-bottom: 60px;
+    letter-spacing: 0.5px;
+}
 .s10-pnud-card {
     background: linear-gradient(145deg, #ffffff 0%, #f9fbf9 100%);
     border: 2px solid #d4e4d4;
@@ -598,7 +629,7 @@ export default {
 }
 .s10-pnud-title-new {
     color: #fff;
-    font-size: 1.15rem;
+    font-size: 0.80rem;
     font-weight: 800;
     margin: 0;
     text-transform: uppercase;
