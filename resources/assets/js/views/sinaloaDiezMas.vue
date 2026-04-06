@@ -60,7 +60,7 @@
                         <img src="/images/s10_banner_video.jpg?v=2" alt="Video Sinaloa 10+" class="s10-yt-thumb">
                     </div>
                 </a>
-                <p class="s10-video-caption">Conoce más sobre la estrategia Sinaloa 10+</p>
+                <!--<p class="s10-video-caption">Conoce más sobre la estrategia Sinaloa 10+</p>-->
             </div>
         </section>
 
@@ -85,10 +85,11 @@
                 </p>
 
                 <div class="s10-pelp-img-container-full text-center">
+                    <p class="s10-img-caption">Visualiza la hoja de ruta estratégica para el desarrollo económico de Sinaloa.</p>
                     <div class="s10-pelp-img-wrapper">
                         <img src="/images/s10_pelp_hoja_ruta.jpg?v=2" alt="Hoja de Ruta PELP" class="s10-pelp-img-large">
                     </div>
-                    <p class="s10-img-caption">Visualiza la hoja de ruta estratégica para el desarrollo económico de Sinaloa.</p>
+                    
                 </div>
 
                 <div class="s10-pnud-container-full">
@@ -133,7 +134,7 @@
                             </div>
                             <p class="s10-member-name">{{ m.nombre }}</p>
                             <p class="s10-member-job">{{ m.cargo }}</p>
-                            <p class="s10-cv-label-hint"><i class="fa fa-info-circle"></i> Ver perfil</p>
+                            <!-- hint removed -->
                         </div>
                     </div>
                 </div>
@@ -178,7 +179,7 @@
                             </div>
                             <p class="s10-member-name">{{ m.nombre }}</p>
                             <p class="s10-member-job">{{ m.cargo }}</p>
-                            <p class="s10-cv-label-hint"><i class="fa fa-info-circle"></i> Ver perfil</p>
+                            <!-- hint removed -->
                         </div>
                     </div>
                 </div>
@@ -266,7 +267,7 @@ export default {
                     descripcion: 'Estratega en inversión social e innovación pública, con experiencia en filantropía, movilidad social y articulación multisectorial. Ha liderado programas de alto impacto, impulsando evaluación, políticas públicas y colaboración intersectorial.'
                 },
                 { 
-                    nombre: 'Dra. Doris Teresita Mendoza López', 
+                    nombre: 'Doris Teresita Mendoza López', 
                     cargo: 'Profesora e Investigadora de Tiempo Completo en Facultad de Contaduría y Administración de la UAS',
                     foto: '/images/equipo/doris-teresita-mendoza.jpg',
                     curriculum: 'https://drive.google.com/file/d/17AmI3Z2XmCuekHGmQJ2Mq0_ZZsBUX7JS/view?usp=drive_link',
@@ -343,7 +344,7 @@ export default {
                     descripcion: 'Empresario y líder agroindustrial con trayectoria en dirección empresarial, innovación y desarrollo organizacional. Ha impulsado proyectos productivos y organismos empresariales, fortaleciendo competitividad, tecnología y crecimiento agrícola con formación en alta dirección.'
                 },
                 { 
-                    nombre: 'Dra. Yamel Guadalupe Rubio Rocha', 
+                    nombre: 'Yamel Guadalupe Rubio Rocha', 
                     cargo: 'Profesora e Investigadora en la Facultad de Biología de la UAS',
                     foto: '/images/equipo/yamel-rubio.jpg',
                     curriculum: 'https://drive.google.com/file/d/1O5_5NLCrAQoaFusGvPRb4LBFBZmnrMz5/view?usp=drive_link',
@@ -473,10 +474,8 @@ export default {
     padding: 30px 20px;
     height: 100%;
     text-align: center;
-    transition: box-shadow 0.2s;
     background: #fff;
 }
-.s10-card:hover { box-shadow: 0 6px 24px rgba(44,76,44,0.12); }
 .s10-card-icon { font-size: 2.5rem; color: #2c4c2c; margin-bottom: 15px; }
 .s10-card-title { font-size: 1.1rem; font-weight: 700; color: #2c4c2c; margin-bottom: 10px; }
 .s10-card-body { font-size: 0.9rem; line-height: 1.5; color: #555; margin: 0; }
@@ -625,9 +624,9 @@ export default {
     text-align: center !important; 
 }
 .s10-team-row { display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 10px; }
-.s10-member-card { text-align: center; margin-bottom: 20px; transition: transform 0.2s; }
+.s10-member-card { text-align: center; margin-bottom: 20px; }
 .s10-member-link { text-decoration: none !important; display: block; color: inherit; }
-.s10-member-link:not(.no-link):hover .s10-member-card { transform: translateY(-5px); }
+.s10-member-link:not(.no-link) { cursor: default; }
 .s10-member-link.no-link { cursor: default; }
 
 .s10-member-img, .s10-member-img-placeholder {
@@ -652,36 +651,13 @@ export default {
 }
 .s10-member-name { font-weight: 700; font-size: 0.85rem; margin: 4px 0; color: #333; }
 .s10-member-job { font-size: 0.78rem; color: #777; margin: 0; line-height: 1.2; }
-.s10-cv-label-hint {
-    font-size: 0.72rem;
-    color: #2c4c2c;
-    font-weight: 700;
-    margin-top: 8px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    opacity: 0;
-    transition: opacity 0.2s;
-}
+/* .s10-cv-label-hint removed */
 .s10-member-clickable {
     cursor: pointer;
-    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background 0.22s ease;
     border-radius: 10px;
     border: 2px solid transparent;
     background: #f8f8f8;
     padding: 10px 8px 8px;
-}
-.s10-member-clickable:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 8px 28px rgba(44,76,44,0.28), 0 2px 8px rgba(44,76,44,0.14);
-    border-color: #2c4c2c;
-    background: linear-gradient(160deg, #f1f6f1 0%, #eaf2ea 100%);
-}
-.s10-member-clickable:hover .s10-cv-label-hint { opacity: 1; }
-.s10-member-clickable:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(44,76,44,0.35);
-    border-color: #2c4c2c;
-    border-radius: 10px;
 }
 
 /* ─── Modal ─── */
@@ -812,8 +788,7 @@ export default {
 /* ─── Noticias ─── */
 .s10-noticias-section { background: #fff; }
 .s10-noticia-col { margin-bottom: 24px; }
-.s10-noticia-card { display: block; text-decoration: none; color: inherit; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.08); transition: box-shadow 0.2s; }
-.s10-noticia-card:hover { box-shadow: 0 6px 24px rgba(44,76,44,0.15); text-decoration: none; color: inherit; }
+.s10-noticia-card { display: block; text-decoration: none; color: inherit; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
 .s10-noticia-img-wrap { height: 180px; overflow: hidden; }
 .s10-noticia-img { width: 100%; height: 100%; object-fit: cover; }
 .s10-noticia-body { padding: 15px; }
@@ -836,8 +811,7 @@ export default {
 /* ─── Documentos ─── */
 .s10-docs-section { padding: 40px 0 60px; background: #f8f8f8; }
 .s10-docs-link { display: inline-block; width: 100%; }
-.s10-docs-banner { width: 100%; display: block; margin: 0 auto; border-radius: 8px; transition: opacity 0.2s; }
-.s10-docs-banner:hover { opacity: 0.9; }
+.s10-docs-banner { width: 100%; display: block; margin: 0 auto; border-radius: 8px; }
 
 
 /* ─── Responsive ─── */
