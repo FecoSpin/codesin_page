@@ -35,10 +35,10 @@
                 <div class="col-md-6 buzon-text-col">
                     <h2 class="buzon-title text-left">Buzón de Quejas</h2>
                     <p class="buzon-desc text-left">
-                        Estamos trabajando para brindarle un espacio de libre expresión para la población Sinaloense referente al ámbito educativo, próximamente estará disponible nuestro Buzón de Quejas y Sugerencias.
+                        
                     </p>
                     <p class="buzon-tel text-left">
-                        <strong>Tel. (667) 846 4200</strong>
+                        <strong>Tel. (667) 712 8232</strong>
                     </p>
                 </div>
 
