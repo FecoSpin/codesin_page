@@ -586,18 +586,28 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px; /* Mayor separación del recuadro verde */
     flex-wrap: wrap;
 }
 .s10-logo-img {
-    max-height: 90px;
+    max-height: 75px;
     width: auto;
     object-fit: contain;
 }
-.s10-logo-ods { max-height: 100px; }
-.s10-logo-codesin { max-height: 90px; }
-.s10-logo-pnud { max-height: 90px; }
+/* Tamaños más pequeños y márgenes ajustados para "centrar" visualmente el logo de Codesin */
+.s10-logo-ods { 
+    max-height: 85px; 
+    margin-right: 10px; 
+}
+.s10-logo-codesin { 
+    max-height: 80px; 
+    margin-right: 20px; 
+    margin-left: 10px;
+}
+.s10-logo-pnud { 
+    max-height: 75px; 
+    margin-left: 20px;
+}
 .s10-pnud-main-title {
     text-align: center;
     font-size: 1.1rem;
