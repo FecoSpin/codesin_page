@@ -191,19 +191,21 @@
                     </div>
                 </div>
 
-                <!-- Equipo CODESIN -->
-                <h3 class="s10-team-group-title text-center">Equipo CODESIN</h3>
-                <div class="row s10-team-row">
-                    <div class="col-md-2 col-sm-4 col-xs-6" v-for="(m, i) in equipoCodesin" :key="'cod-'+i">
-                        <div class="s10-member-card">
-                            <div class="s10-member-img-placeholder">
-                                <i class="fa fa-user" aria-hidden="true"></i>
+                <!-- Equipo CODESIN (Oculto temporalmente) -->
+                <template v-if="false">
+                    <h3 class="s10-team-group-title text-center">Equipo CODESIN</h3>
+                    <div class="row s10-team-row">
+                        <div class="col-md-2 col-sm-4 col-xs-6" v-for="(m, i) in equipoCodesin" :key="'cod-'+i">
+                            <div class="s10-member-card">
+                                <div class="s10-member-img-placeholder">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+                                <p class="s10-member-name">{{ m.nombre }}</p>
+                                <p class="s10-member-job">{{ m.cargo }}</p>
                             </div>
-                            <p class="s10-member-name">{{ m.nombre }}</p>
-                            <p class="s10-member-job">{{ m.cargo }}</p>
                         </div>
                     </div>
-                </div>
+                </template>
             </div>
         </section>
 
@@ -884,5 +886,31 @@ export default {
     .s10-subtitle { font-size: 1.2rem; }
     .s10-member-img-placeholder { width: 90px; height: 90px; font-size: 2rem; }
     .s10-card { margin-bottom: 16px; }
+
+    /* Ajustes de PNUD y logos para móvil */
+    .s10-logos-row { 
+        gap: 15px; 
+        margin-bottom: 40px; 
+    }
+    .s10-logo-ods, .s10-logo-codesin, .s10-logo-pnud { 
+        max-height: 45px; /* Más pequeños para que quepan horizontalmente */
+        margin: 0; /* Reiniciamos márgenes personalizados en móvil */
+    }
+    .s10-pnud-header {
+        width: 90%;
+        white-space: normal; /* Permite que el texto baje a la siguiente línea */
+        padding: 10px 15px;
+        border-radius: 25px;
+        top: -40px; /* Sube la etiqueta para que no tape tanto el texto */
+    }
+    .s10-pnud-title-new {
+        font-size: 0.65rem;
+        line-height: 1.4;
+        text-align: center;
+    }
+    .s10-pnud-card {
+        padding: 35px 20px 20px; /* Reduce acolchado lateral */
+        margin-top: 20px;
+    }
 }
 </style>
