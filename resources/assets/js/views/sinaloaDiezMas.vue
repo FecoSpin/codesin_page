@@ -2,7 +2,7 @@
     <div>
         <!-- ===================== SECCIÓN 1: BANNER HEADER ===================== -->
         <section class="s10-banner-section">
-            <img src="/images/s10_banner_main.jpg?v=2" alt="Sinaloa 10+" class="s10-banner-img">
+            <img src="/images/s10_banner_main.jpg?v=3" alt="Sinaloa 10+" class="s10-banner-img">
         </section>
 
         <!-- ===================== SECCIÓN 2: DESCRIPCIÓN + COMPONENTES ===================== -->
@@ -53,7 +53,7 @@
         </section>
 
         <!-- ===================== SECCIÓN 3: VIDEO ===================== -->
-        <section class="s10-video-section">
+        <section class="s10-video-section s10-video-section-hidden">
             <div class="container text-center">
                 <a class="s10-video-popup" :href="urlvideo">
                     <div class="s10-video-thumb">
@@ -237,7 +237,7 @@
         <section class="s10-docs-section">
             <div class="container text-center">
                 <a href="https://drive.google.com/drive/folders/1VVPUzcIcWKwb4MNAfGTkZdCGLnAvMG8M?usp=sharing" target="_blank" class="s10-docs-link">
-                    <img src="/images/s10_banner_descargas.jpg?v=2" alt="Documentos Descargables" class="s10-docs-banner">
+                    <img src="/images/s10_banner_descargas.jpg?v=3" alt="Documentos Descargables" class="s10-docs-banner">
                 </a>
             </div>
         </section>
@@ -311,10 +311,10 @@ export default {
                     descripcion: 'Politólogo y abogado con experiencia en administración pública, gestión institucional y asesoría estratégica. Ha ocupado cargos directivos en gobierno y organismos públicos, con liderazgo, negociación, planeación estratégica y políticas públicas sociales.'
                 },
                 { 
-                    nombre: 'Jorge Rafael Elenes Figueroa', 
+                    nombre: 'Jorge Rafael Figueroa Elenes', 
                     cargo: 'Profesor e Investigador de Posgrado en la UAS',
                     foto: '/images/equipo/jorge-elenes.jpg',
-                    curriculum: 'https://drive.google.com/file/d/1NnPi9wJCJ-Zxoms4skAv6SPqrtKAoSHA/view?usp=drive_link',
+                    curriculum: 'https://drive.google.com/file/d/1c0JjyB8-I_y0ZgE2oLZQHNKaj5fyuDL7/view?usp=drive_link',
                     descripcion: 'Economista e investigador con trayectoria en docencia, investigación y gestión académica, especializado en desarrollo regional, economía aplicada y análisis territorial. Miembro del Sistema Nacional de Investigadores Nivel I, con producción científica.'
                 },
                 { 
@@ -385,6 +385,12 @@ export default {
                     cargo: 'Especialista en formación para la localización de la Agenda 2030 y planeación del desarrollo en PNUD México',
                     foto: '/images/equipo/fiodr-rodriguez.jpg',
                     descripcion: 'Experiencia en pedagogía, diseño metodológico y fortalecimiento de capacidades para la Agenda 2030. Cuenta con trayectoria en docencia, diseño y evaluación de políticas públicas y promoción de derechos humanos e inclusión social.'
+                },
+                { 
+                    nombre: 'Silvia Morimoto', 
+                    cargo: 'Representante Residente del Programa de las Naciones Unidas para el Desarrollo (PNUD) en México',
+                    foto: '/images/equipo/silvia-morimoto.jpeg',
+                    descripcion: 'Es una destacada profesional en el ámbito del desarrollo internacional, con una sólida trayectoria de más de 25 años en asistencia gerencial y liderazgo de proyectos de alto impacto.'
                 },
             ],
             // ── Equipo CODESIN ──
@@ -491,6 +497,7 @@ export default {
 
 /* ─── Video ─── */
 .s10-video-section { padding: 40px 0; background: #f8f8f8; }
+.s10-video-section-hidden { display: none; }
 .s10-video-thumb {
     position: relative;
     display: inline-block;
