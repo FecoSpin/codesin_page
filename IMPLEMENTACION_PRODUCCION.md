@@ -2,6 +2,117 @@
 
 Este documento detalla los pasos necesarios para desplegar las modificaciones realizadas en el proyecto para la sección **Sinaloa 10+** en el ambiente de producción.
 
+## 0. Despliegue Inicial del Repositorio (desde cero)
+
+Si se va a descargar y poner en línea este repositorio por primera vez, seguir estos pasos:
+
+### 0.1 Requisitos del servidor
+- **PHP 7.4** (con extensiones: `pdo_mysql`, `mbstring`, `exif`, `pcntl`, `bcmath`, `gd`, `zip`)
+- **Composer 2.x**
+- **Node.js 14+** y **npm** (solo si se compilarán assets en el servidor)
+- **MySQL 5.7+** o MariaDB equivalente
+- **Nginx** o **Apache** con mod_rewrite
+- **Git**
+
+### 0.2 Clonar el repositorio
+```bash
+git clone <URL_DEL_REPOSITORIO> codesin
+cd codesin
+```
+
+### 0.3 Instalar dependencias PHP
+```bash
+composer install --no-dev --optimize-autoloader --no-interaction
+```
+
+### 0.4 Configurar archivo `.env`
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+Editar `.env` con los valores de producción:
+```env
+APP_NAME=Codesin
+APP_ENV=production
+APP_DEBUG=false
+APP_URL=https://tudominio.com
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nombre_bd
+DB_USERNAME=usuario_bd
+DB_PASSWORD=password_bd
+```
+
+### 0.5 Permisos de directorios
+```bash
+chown -R www-data:www-data storage bootstrap/cache
+chmod -R 775 storage bootstrap/cache
+```
+
+### 0.6 Migrar base de datos
+```bash
+php artisan migrate --force
+```
+
+### 0.7 Enlace simbólico de storage
+```bash
+php artisan storage:link
+```
+
+### 0.8 Optimizar para producción
+```bash
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+```
+
+### 0.9 Compilar assets (si no vienen pre-compilados)
+> Nota: Los assets Vue ya vienen compilados en `public/js/app.js`. Este paso solo es necesario si se realizan cambios al frontend.
+```bash
+npm install
+npm run prod
+```
+
+### 0.10 Configurar servidor web
+Apuntar el document root a `public/` del proyecto.
+
+**Ejemplo Nginx:**
+```nginx
+server {
+    listen 80;
+    server_name tudominio.com;
+    root /var/www/codesin/public;
+    index index.php index.html;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+}
+```
+
+### 0.11 Despliegue con Docker / CapRover (opcional)
+Si se despliega con CapRover, el proyecto ya incluye:
+- `Dockerfile` (PHP 7.4-FPM + Nginx + Supervisor)
+- `captain-definition`
+- `docker/` con configuraciones de Nginx, Supervisor y entrypoint
+
+Comando para desplegar en CapRover:
+```bash
+caprover deploy
+```
+
+---
+
 ## 1. Cambios en el Código Fuente
 Se han realizado modificaciones en los siguientes archivos clave:
 
@@ -68,7 +179,32 @@ Para que los cambios en Vue y el Menú sean visibles, se deben compilar los asse
 Asegurar la existencia de estas imágenes en `public/images/`:
 - `s10_banner_main.jpg`, `s10_banner_video.jpg`, `s10_banner_descargas.jpg`.
 
-## 5. Verificación Final
+## 5. Configuración de Correo (SMTP)
+Agregar/actualizar las siguientes variables en el archivo `.env` de producción para el envío de correos mediante **Brevo (Sendinblue)**:
+
+```env
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp-relay.brevo.com
+MAIL_PORT=587
+MAIL_FROM_NAME="${APP_NAME}"
+MAIL_FROM_ADDRESS=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=tls
+
+QUEJAS_EMAIL_RECIPIENT=Admon.finanzas@codesin.mx
+```
+
+> **Importante:** Los campos `MAIL_FROM_ADDRESS`, `MAIL_USERNAME` y `MAIL_PASSWORD` deben completarse con las credenciales propias del cliente/servidor de producción.
+
+Después de modificar el `.env`, limpiar la caché de configuración:
+```bash
+php artisan config:clear
+php artisan config:cache
+```
+
+## 6. Verificación Final
 1. En el Admin, editar una noticia y verificar que aparezca el selector "Sub-categoría".
 2. Comprobar que el menú "Comunicación" tiene el nuevo enlace.
 3. El micrositio `sinaloa10mas` debe mostrar las noticias marcadas con la estrategia "Sinaloa 10+".
+4. Enviar un correo de prueba (por ejemplo, desde el formulario de quejas) para validar la configuración SMTP.
