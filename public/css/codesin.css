@@ -32,6 +32,7 @@ body {
   font-family: 'Open Sans', sans-serif !important;
   background: #F4F4F4;
   width: 100%;
+  overflow-x: hidden;
 }
 
 b, strong {
@@ -1772,7 +1773,7 @@ width: 100%;
   top: 138px;
   position: relative;
   float: right;
-  left: 175px;
+  left: 0;
 }
 .aviso a {
   text-decoration: none;
