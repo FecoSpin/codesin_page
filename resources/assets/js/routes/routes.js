@@ -184,6 +184,11 @@ export default new Router({
             component: require('../views/sinaloaDiezMas'),
         },
         {
+            path: '/sinaloa10mas-noticias',
+            name: 'sinaloa10_noticias',
+            component: require('../views/NoticiasSinaloaDiez'),
+        },
+        {
             path: '*',
             component: require('../views/404')
         }

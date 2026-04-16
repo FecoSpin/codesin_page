@@ -73,7 +73,23 @@ class NoticiasController extends Controller
     }
     public function sinaloa10(){
         {
-            $post = Post::Published()->where('category_id', 12)->take(3)->get();
+            $post = Post::Published()->where('category_id', 2)->where('news_strategy_id', 2)->take(3)->get();
+
+            if( request()->wantsJson() )
+            {
+                return $post;
+            }
+            return view('posts.show', compact('post'));
+
+        }
+
+        abort(404);
+
+    }
+
+    public function sinaloa10All(){
+        {
+            $post = Post::Published()->where('category_id', 2)->where('news_strategy_id', 2)->get();
 
             if( request()->wantsJson() )
             {

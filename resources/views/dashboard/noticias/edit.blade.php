@@ -52,6 +52,16 @@
                             {!! $errors->first('excerpt', '<span class="help-block">:message</span>') !!}
                             div
                         </div>
+                        <div class="col-md-12 form-group mb-3">
+                            <label for="news_strategy_id">Sub-categoría (Estrategia)</label>
+                            <select class="form-control" name="news_strategy_id" id="news_strategy_id">
+                                @foreach($strategies as $strategy)
+                                    <option value="{{ $strategy->id }}" {{ old('news_strategy_id', $post->news_strategy_id) == $strategy->id ? 'selected' : '' }}>
+                                        {{ $strategy->name }}
+                                    </option>
+                                @endforeach
+                            </select>
+                        </div>
                         <input type="hidden" name="category_id" value="2">
                         <div class="col-md-12 form-group mb-3">
                             <div class="dropzone"></div>

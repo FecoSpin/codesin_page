@@ -45,10 +45,12 @@ debug.log
 *.tar
 *.gz
 *~merged
-# Docker
-Dockerfile
+# Docker (excluir solo lo que no va a producción)
+# Dockerfile         <-- NO ignorar: CapRover lo necesita
+# captain-definition <-- NO ignorar: CapRover lo necesita
 docker-compose.yml
 docker-compose.override.yml
 .docker/
 .dbdata/
 mysql/
+Perfiles del Equipo Técnico Multisectorial.md

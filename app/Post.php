@@ -10,7 +10,7 @@ class Post extends Model
 {
     //
     protected $dates = ['published_at'];
-    protected $fillable = ['title','url', 'externalUrl', 'urlvideo', 'urlBanner', 'urlBannerMobile', 'urlimage', 'urlimageMobile', 'excerpt','body','published_at','category_id', 'user_id'];
+    protected $fillable = ['title','url', 'externalUrl', 'urlvideo', 'urlBanner', 'urlBannerMobile', 'urlimage', 'urlimageMobile', 'excerpt','body','published_at','category_id', 'user_id', 'news_strategy_id'];
 
     protected $appends =  ['published_date'];
 
@@ -32,6 +32,10 @@ class Post extends Model
 
     public function category (){
         return $this->belongsTo(Category::class);
+    }
+
+    public function strategy(){
+        return $this->belongsTo(NewsStrategy::class, 'news_strategy_id');
     }
 
     public function tags(){

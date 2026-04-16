@@ -9,6 +9,7 @@ use App\Post;
 use App\Photo;
 use App\Category;
 use App\Tag;
+use App\NewsStrategy;
 use Carbon\Carbon;
 use File;
 
@@ -43,8 +44,9 @@ class NoticiasController extends Controller
     public function edit(Post $post){
         
         $tags = Tag::all();
+        $strategies = NewsStrategy::all();
 
-        return view('dashboard.noticias.edit', compact('post', 'tags'));
+        return view('dashboard.noticias.edit', compact('post', 'tags', 'strategies'));
     }
 
     
@@ -120,6 +122,7 @@ class NoticiasController extends Controller
             'excerpt' => $request->get('excerpt'),
             'urlvideo' => $request->get('urlvideo'),
             'published_at' => $request->get('published_at_submit'),
+            'news_strategy_id' => $request->get('news_strategy_id'),
         ]);
           
         if($changeUrl){
