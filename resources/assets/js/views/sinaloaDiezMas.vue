@@ -258,110 +258,116 @@ export default {
                     nombre: 'Alberto Kousuke De la Herrán Arita', 
                     cargo: 'Director de Fomento a la Investigación Científica en CONFÍE',
                     foto: '/images/equipo/alberto-kousuke.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1OvBxBGyfCkgR4Mth44JYKPSrW3t39VIn/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1GgRf4GxJQ5niXmXJipISJT4IWdNUHetA/view?usp=drive_link',
                     descripcion: 'Médico e investigador en neurociencias, especializado en neurofisiología, trastornos del sueño y neuroinmunología. Profesor universitario y funcionario público, impulsa investigación científica, divulgación del conocimiento y acción social.'
                 },
                 { 
                     nombre: 'Diego Alonso Gastélum Chavira', 
                     cargo: 'Profesor Investigador de Tiempo Completo en la UAdeO',
                     foto: '/images/equipo/diego-gastelum.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1GDrQKA7XULzW8KkB2v9mgx7kyrUvrmqo/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1gsz79IHr5ht0i7Yi307gL_O5Q3Lz4Uh_/view?usp=drive_link',
                     descripcion: 'Investigador y académico con más de una década de experiencia en análisis multicriterio, ciencia de datos y optimización. Miembro del SNII Nivel II, enfocado en investigación aplicada, formación de talento y cooperación internacional.'
                 },
                 { 
                     nombre: 'Doris Ibel Gutiérrez Félix', 
                     cargo: 'Gerente de Inversión Social en Fundación Coppel',
                     foto: '/images/equipo/doris-gutierrez.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1hPbFwIRPvNx_d51sly23aDu0je6PeRHk/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1hvWZEbiFoHh54O_kaFk4OWHwzwIFiy59/view?usp=drive_link',
                     descripcion: 'Estratega en inversión social e innovación pública, con experiencia en filantropía, movilidad social y articulación multisectorial. Ha liderado programas de alto impacto, impulsando evaluación, políticas públicas y colaboración intersectorial.'
                 },
                 { 
                     nombre: 'Doris Teresita Mendoza López', 
                     cargo: 'Profesora e Investigadora de Tiempo Completo en Facultad de Contaduría y Administración de la UAS',
                     foto: '/images/equipo/doris-teresita-mendoza.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1wslBSYCqb7Z5lCe79Rn1dCwAPvj6BgxH/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1eDgS5ucg1bBKFvvPoMY90QxUmZAs1bLQ/view?usp=drive_link',
                     descripcion: 'Investigadora en fiscalidad internacional y estrategias fiscales en entornos globalizados. Con trayectoria en docencia e investigación, analiza la tributación de empresas multinacionales y su impacto en políticas públicas y competitividad.'
                 },
                 { 
                     nombre: 'Dulce Livier Pérez Gámez', 
                     cargo: 'Fundadora y Directora de Entre Pueblos, Organización de la Sociedad Civil',
                     foto: '/images/equipo/dulce-livier.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1AbRezuZ2ve0eojxAwyDG5mgF-A4iXCWn/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1ua-B6CQIiToSoKu4dbrskeRtsotYmUMM/view?usp=drive_link',
                     descripcion: 'Especialista en desarrollo comunitario y sostenibilidad, con catorce años de experiencia en proyectos sociales y ambientales. Fundadora de Entre Pueblos A.C., impulsa capacidades comunitarias, articulación intersectorial y acuerdos regionales sostenibles.'
                 },
                 { 
                     nombre: 'Héctor Emanuel Ibarra Flores', 
                     cargo: 'Empresario, Director General de Fumigaciones Ibarra',
                     foto: '/images/equipo/hector-ibarra.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1g_F-fu94eIuGrbvbUm2jrVuJlSnwr_Vf/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1b3SpovKDsYvyFEPvirlYYL76-2QPvTOt/view?usp=drive_link',
                     descripcion: 'Ingeniero industrial químico y empresario con más de 35 años de experiencia en dirección de negocios, liderazgo gremial y gestión pública. Especialista en vinculación institucional, desarrollo económico y fortalecimiento productivo.'
                 },
                 { 
                     nombre: 'Ismael Barraza Guzmán', 
                     cargo: 'Jefe de Vinculación y Desarrollo Regional del Instituto Politécnico Nacional en Los Mochis',
                     foto: '/images/equipo/ismael-barraza.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1PdzRnLkBF75gb4ybBh3bm5rNLXIIxW4_/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1-AAC5EHIyD9pEoiTb9OFPy1kcR5idfMr/view?usp=drive_link',
                     descripcion: 'Especialista en desarrollo económico territorial con más de 20 años de experiencia en estructuración de proyectos estratégicos, financiamiento público y articulación interinstitucional para el desarrollo regional sostenible con enfoque integral.'
                 },
                 { 
                     nombre: 'Jorge Miller Benítez', 
                     cargo: 'Asesor Jurídico del Despacho del Secretario de Economía de Sinaloa',
                     foto: '/images/equipo/jorge-miller.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1eqYRfiaRMXe-ZbSAZXzFL-vUH2fbFbcU/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1eNO9Z4DWZE83vatk2k1x55fz6o0AA_w6/view?usp=drive_link',
                     descripcion: 'Politólogo y abogado con experiencia en administration pública, gestión institucional y asesoría estratégica. Ha ocupado cargos directivos en gobierno y organismos públicos, con liderazgo, negociación, planeación estratégica y políticas públicas sociales.'
                 },
                 { 
                     nombre: 'Jorge Rafael Figueroa Elenes', 
                     cargo: 'Profesor e Investigador de Posgrado en la UAS',
                     foto: '/images/equipo/jorge-elenes.jpg',
-                    curriculum: 'https://docs.google.com/document/d/12STdUg6gONRRLK4aNXJlRpFhR2K9W1_Z/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1DUQ4IV_IXPWPb-ncnyiai8LPPypfVDVs/view?usp=drive_link',
                     descripcion: 'Economista e investigador con trayectoria en docencia, investigación y gestión académica, especializado en desarrollo regional, economía aplicada y análisis territorial. Miembro del Sistema Nacional de Investigadores Nivel I, con producción científica.'
                 },
                 { 
                     nombre: 'José Antonio Penné Madrid', 
                     cargo: 'Director de Planeación en la Secretaría de Administración y Finanzas del Gobierno de Sinaloa',
                     foto: '/images/equipo/jose-antonio-penne.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1M-IOjSyixHWYcq9TKt8057NSNAcvJWjP/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1BRVl1Klk2ftu-DnKWlfaXCHwtTcNU8Px/view?usp=drive_link',
                     descripcion: 'Especialista en planeación del desarrollo, política pública y finanzas públicas, con trayectoria en sector gubernamental y académico. Experto en diseño, implementación y evaluación de políticas, presupuestación basada en resultados y seguimiento.'
                 },
                 { 
                     nombre: 'José Antonio Ríos Rojo', 
                     cargo: 'Integrante de la Coordinación de Asesores del Gobernador de Sinaloa',
                     foto: '/images/equipo/jose-antonio-rios.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1PO-p2HeHhM0OS2WbXl6RGBtR5xK2dLEU/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1KZtxatb2qX4TN-G6YdKlEccG-fgA-wGm/view?usp=drive_link',
                     descripcion: 'Profesional con trayectoria en el ámbito académico y legislativo, con experiencia en formación universitaria, análisis político y gestión parlamentaria. Contribuye al fortalecimiento institucional mediante análisis, articulación y generación de propuestas públicas.'
                 },
                 { 
                     nombre: 'María del Rosario Godoy Alarcón', 
                     cargo: 'Empresaria, Directora General y socia accionista de Ingoy',
                     foto: '/images/equipo/rosario-godoy.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1LHQqTtyw-UGp1eCo4HMSUuqbRCjDLkom/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1znchVvWCp-nVZI2rd6JlhoGHNIU477bg/view?usp=drive_link',
                     descripcion: 'Empresaria con experiencia en dirección general, desarrollo de negocios y fortalecimiento operativo en el sector industrial. Impulsa calidad, innovación y crecimiento sostenido, con enfoque en competitividad y consolidación empresarial de largo plazo.'
                 },
                 { 
                     nombre: 'Pedro Flores Leal', 
                     cargo: 'Rector de la UAdeO',
                     foto: '/images/equipo/pedro-flores.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1JtUZbyj8GMqIjhPRfCwiwK512FxL4qx2/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1ChTENg1AMFReJv3KlU3FpBjs7hG1VYQR/view?usp=drive_link',
                     descripcion: 'Especialista en innovación y gestión del conocimiento, enfocado en capital intelectual y transferencia tecnológica. Ha participado en proyectos CONACYT, consultoría en innovación y vinculación con empresas, impulsando desarrollo tecnológico y estrategia organizacional.'
                 },
                 { 
                     nombre: 'Sergio Antonio Álvarez Torres', 
                     cargo: 'Empresario, Director General del Grupo FIASA',
                     foto: '/images/equipo/sergio-alvarez.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1G_kuSKE7Vcp0VrtOLpP43rSXH-290V06/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1be7NDF5gAMDl6G_FxDyS3s5vHy2Ho265/view?usp=drive_link',
                     descripcion: 'Empresario y líder agroindustrial con trayectoria en dirección empresarial, innovación y desarrollo organizacional. Ha impulsado proyectos productivos y organismos empresariales, fortaleciendo competitividad, tecnología y crecimiento agrícola con formación en alta dirección.'
                 },
                 { 
                     nombre: 'Yamel Guadalupe Rubio Rocha', 
                     cargo: 'Profesora e Investigadora en la Facultad de Biología de la UAS',
                     foto: '/images/equipo/yamel-rubio.jpg',
-                    curriculum: 'https://docs.google.com/document/d/1Tu0D2MRq-hd0WG2-ReahpRu4fXJKJugu/edit?usp=drive_link&ouid=102949531238557000243&rtpof=true&sd=true',
+                    curriculum: 'https://drive.google.com/file/d/1Cwlv51I9U-oTxuENGOw1bG4h8dA7J747/view?usp=drive_link',
                     descripcion: 'Académica e investigadora en conservación de biodiversidad, desarrollo sustentable y manejo de fauna silvestre. Enfocada en jaguar y modelos productivos sostenibles, con experiencia en políticas ambientales, investigación aplicada y vinculación comunitaria.'
                 }
             ],
             // ── Equipo PNUD ──
             equipoPNUD: [
+                { 
+                    nombre: 'Silvia Morimoto', 
+                    cargo: 'Representante Residente del Programa de las Naciones Unidas para el Desarrollo (PNUD) en México',
+                    foto: '/images/equipo/silvia-morimoto.jpeg',
+                    descripcion: 'Es una destacada profesional en el ámbito del desarrollo internacional, con una sólida trayectoria de más de 25 años en asistencia gerencial y liderazgo de proyectos de alto impacto.'
+                },
                 { 
                     nombre: 'Jesús Pacheco', 
                     cargo: 'Coordinador del proyecto Implementación de la Agenda 2030 a nivel subnacional en PNUD México',
@@ -385,12 +391,6 @@ export default {
                     cargo: 'Especialista en formación para la localización de la Agenda 2030 y planeación del desarrollo en PNUD México',
                     foto: '/images/equipo/fiodr-rodriguez.jpg',
                     descripcion: 'Experiencia en pedagogía, diseño metodológico y fortalecimiento de capacidades para la Agenda 2030. Cuenta con trayectoria en docencia, diseño y evaluación de políticas públicas y promoción de derechos humanos e inclusión social.'
-                },
-                { 
-                    nombre: 'Silvia Morimoto', 
-                    cargo: 'Representante Residente del Programa de las Naciones Unidas para el Desarrollo (PNUD) en México',
-                    foto: '/images/equipo/silvia-morimoto.jpeg',
-                    descripcion: 'Es una destacada profesional en el ámbito del desarrollo internacional, con una sólida trayectoria de más de 25 años en asistencia gerencial y liderazgo de proyectos de alto impacto.'
                 },
             ],
             // ── Equipo CODESIN ──
